@@ -1,0 +1,2 @@
+# namecpaseSystem
+global namecpase system
