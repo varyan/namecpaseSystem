@@ -11,39 +11,44 @@ namespace System\Helpers\Routing;
 trait RoutParser
 {
     /**
-     *
+     * @var array $routing
      * */
-    protected static $routing;
+    private static $routing;
     /**
-     *
+     * getRouter method
+     * @return array
      * */
-    protected static $key = 'default_controller';
-    /**
-     *
-     * */
-    public function getRouter(){
-        self::$routing = strpos(self::$routing,'/') ? explode('/',self::$routing) : array(self::$routing);
+    public function getRouter()
+    {
 
-        $controller = self::$routing[0];
-        $method     = isset(self::$routing[1]) ? self::$routing[1] : 'index';
-        unset(self::$routing[0],self::$routing[1]);
-        $params = implode('/',array_values(self::$routing));
+        $route = $this->getRouting();
+
+        $controller = $route[0];
+        $method     = isset($route[1]) ? $route[1] : 'index';
+        unset($route[0],$route[1]);
+        $params     = isset($route[2]) ? implode('/',array_values($route)) : null;
 
         return array(
-            'controller'    =>$controller,
-            'method'        =>$method,
-            'parameters'    =>$params,
+            'controller'    =>  $controller,
+            'method'        =>  $method,
+            'parameters'    =>  $params,
         );
     }
     /**
-     *
+     * setRouting method
+     * @param mixed $routValue
      * */
-    protected function getFuncArgNames($funcName) {
-        $f = new \ReflectionFunction($funcName);
-        $result = array();
-        foreach ($f->getParameters() as $param) {
-            $result[] = $param->name;
-        }
-        return $result;
+    protected function setRouting($routValue)
+    {
+        self::$routing = $routValue;
+        self::$routing = strpos(self::$routing,'/') ? explode('/',self::$routing) : array(self::$routing);
+    }
+    /**
+     * getRouting method
+     * @return array
+     * */
+    protected function getRouting()
+    {
+        return self::$routing;
     }
 }

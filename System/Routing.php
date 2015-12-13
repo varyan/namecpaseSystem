@@ -9,26 +9,41 @@
 namespace System;
 use System\Helpers\Routing\RoutArray;
 use System\Helpers\Routing\RoutFunction;
+use System\Helpers\Routing\RoutKey;
 use System\Helpers\Routing\RoutObject;
 use System\Helpers\Routing\RoutString;
 
 class Routing
 {
-    /**/
+    /**
+     * @var string $url
+     * */
     private static $url;
-    /**/
-    private static $urlParts;
-    /**/
+    /**
+     * @var array $keyParts
+     * */
+    private static $keyParts;
+    /**
+     * @var array $routArray
+     * */
     private static $routArray;
-    /**/
+    /**
+     * @var array $router
+     * */
     private static $router;
-    /**/
-    private static $currValue;
-    /**/
-    final public static function start()
+    /**
+     * @var mixed $valueType
+     * */
+    private static $valueType;
+    /**
+     * start method
+     * @param string $url
+     * @return array
+     * */
+    final public static function start($url)
     {
         self::$routArray = load_config('routing');
-        self::$url = strpos(FC_PATH,'index.php') ? substr(FC_PATH,11) : FC_PATH;
+        self::$url = $url;
 
         if(self::$url === '/' || trim(self::$url) === '')
         {
@@ -41,45 +56,53 @@ class Routing
         return self::$router;
 
     }
-    /**/
+    /**
+     * defaultRout method
+     * */
     private static function defaultRout()
     {
         if(array_key_exists('default_controller',self::$routArray)){
-            self::$currValue = self::$routArray['default_controller'];
+            self::$valueType = self::$routArray['default_controller'];
             self::detectRoutType();
         }
     }
     /**
-     *
+     * findCurrentValue method
      * */
     private static function findCurrentValue(){
         if(array_key_exists(self::$url,self::$routArray))
-            self::$currValue = self::$routArray[self::$url];
+            self::$valueType = self::$routArray[self::$url];
         else
-            self::advanceValue();
+            self::findMatchKeys();
 
         self::detectRoutType();
     }
-    /**/
+    /**
+     * detectRoutType method
+     * */
     private static function detectRoutType()
     {
-        if(is_array(self::$currValue))
-            self::$router = new RoutArray(self::$routArray,self::$urlParts);
-        elseif(is_string(self::$currValue))
-            self::$router = new RoutString(self::$routArray,self::$urlParts);
-        elseif(is_callable(self::$currValue))
-            self::$router = new RoutFunction(self::$routArray,self::$urlParts);
-        elseif(is_object(self::$currValue))
-            self::$router = new RoutObject(self::$routArray,self::$urlParts);
+        if(is_array(self::$valueType))
+            self::$router = new RoutArray(self::$valueType,self::$keyParts);
+        elseif(is_string(self::$valueType))
+            self::$router = new RoutString(self::$valueType,self::$keyParts);
+        elseif(is_callable(self::$valueType))
+            self::$router = new RoutFunction(self::$valueType,self::$keyParts);
+        elseif(is_object(self::$valueType))
+            self::$router = new RoutObject(self::$valueType,self::$keyParts);
         else
             exit("Undefined rout type");
 
         self::$router = self::$router->getRouter();
     }
     /**
-     *
+     * findMatchKeys method
      * */
-    private static function advanceValue(){
+    private static function findMatchKeys()
+    {
+        $keysMatch = array();
+        $keysMatchStart = array();
+
         if(array_key_exists('default_controller',self::$routArray))
             unset(self::$routArray['default_controller']);
 
@@ -88,7 +111,31 @@ class Routing
         foreach(array_keys(self::$routArray) as $key){
             $routeParts = explode('/',$key);
             if(sizeof($routeParts) == sizeof($urlParts)){
-                self::$currValue = self::$routArray[$key];
+                if($routeParts[0] == $urlParts[0])
+                    $keysMatchStart[$key] = self::$routArray[$key];
+                else
+                    $keysMatch[$key] = self::$routArray[$key];
+            }
+        }
+
+        self::$routArray = (sizeof($keysMatchStart) > 0) ? $keysMatchStart : $keysMatch;
+        self::advanceValue();
+    }
+    /**
+     * advanceValue method
+     * */
+    private static function advanceValue(){
+        $counter = 0;
+        foreach(array_keys(self::$routArray) as $key) {
+            $counter++;
+            $routKey = new RoutKey($key, self::$url);
+            if($routKey->getStatus() === TRUE){
+                self::$valueType    = self::$routArray[$key];
+                self::$keyParts     = $routKey->getKeyParts();
+                return;
+            }else{
+                if($counter == sizeof(self::$routArray))
+                    exit("The rout parameter ".$routKey->getKeyPosition()." type is not valid");
             }
         }
     }

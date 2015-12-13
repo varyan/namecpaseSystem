@@ -11,7 +11,10 @@ namespace Apps\Model;
 
 use System\Core\Model;
 
-class Welcome extends Model
+class User extends Model
 {
-
+    public function __construct()
+    {
+        parent::__construct('users');
+    }
 }

@@ -2,13 +2,13 @@
 /**
  * Created by PhpStorm.
  * User: VarYan
- * Date: 08.12.2015
- * Time: 21:08
+ * Date: 13.12.2015
+ * Time: 14:38
  */
 
-namespace VSPlugins\Other;
+namespace System\Helpers\Other;
 
-class Convert
+trait DataTo
 {
     /**
      * json method
@@ -31,10 +31,10 @@ class Convert
      * @param boolean $numbering (default value true)
      * @return xml
      * */
-    public function xml($data,$info_tag = 'info',$numbering = true){
+    public static function xml($data,$info_tag = 'info',$numbering = true){
         $xml = new \DOMDocument();
 
-        $this->create_node($xml,$data,null,$info_tag,$numbering);
+        self::create_node($xml,$data,null,$info_tag,$numbering);
 
         $header = "Content-Type:text/xml";
 
@@ -47,8 +47,9 @@ class Convert
      * @param array $arr
      * @param null|string $node
      * @param string $info_tag
+     * @param boolean $numbering
      * */
-    private function create_node(\DOMDocument $xml,$arr, $node = null,$info_tag,$numbering){
+    private static function create_node(\DOMDocument $xml,$arr, $node = null,$info_tag,$numbering){
         if (is_null($node))
         {
             $node = $xml->appendChild($xml->createElement( $info_tag ));
@@ -63,7 +64,7 @@ class Convert
 
             if (is_array($value))
             {
-                $this->create_node($xml, $value, $child, $info_tag,$numbering);
+                self::create_node($xml, $value, $child, $info_tag,$numbering);
             }
             $i++;
         }

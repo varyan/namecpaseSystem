@@ -1,6 +1,6 @@
 <?php
 
-if(!function_exists('my_autoload')){
+if(!function_exists('VarYanSystem_autoload')){
     /**
      * VarYanSystem_autoload method
      * @param string $className
@@ -26,13 +26,20 @@ if(!function_exists('my_autoload')){
 }
 
 if(!function_exists('load_config')){
-    function &load_config($config = 'config'){
-        $file = APPS."config/".$config.".php";
+    function &load_config($configFileName = 'config'){
+        $file = APPS."config/".$configFileName.".php";
 
         if(file_exists($file)){
             require $file;
-            return $$config;
+            return $$configFileName;
         }
+    }
+}
+
+if(!function_exists('is_assoc')){
+    function is_assoc($arr, $reusingKeys = FALSE) {
+        $range = range(0, count($arr) - 1);
+        return $reusingKeys ?  $arr !== $range : array_keys($arr) !== $range;
     }
 }
 

@@ -10,8 +10,14 @@ namespace System\Helpers\Routing;
 
 class RoutObject
 {
+    /**
+     * @use trait RouteParser
+     * */
     use RoutParser;
-    public function __construct($routArray,$url)
+    /**
+     * __construct method
+     * */
+    public function __construct($object,$args)
     {
         echo "rout object";
     }
