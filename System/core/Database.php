@@ -8,16 +8,15 @@
 
 namespace System\Core;
 
+use System\Helpers\Database\Queries;
+
 class Database
 {
+    use Queries;
     /**
      * @var object $query
      * */
     private $lastInsertedID;
-    /**
-     * @var object $query
-     * */
-    private $query;
     /**
      * @var string $table
      * */
@@ -142,7 +141,7 @@ class Database
      * @param array $data
      * @return class object
      * */
-    public function update($id,$data){
+    /*public function update($id,$data){
         $query = "UPDATE ".$this->getTableName()." SET ";
         $counter = 0;
         foreach($data as $item => $value){
@@ -153,7 +152,7 @@ class Database
         }
         $query .= " WHERE ".$this->getTableName().".id = '".$id."'";
         return $this->makeQuery($query);
-    }
+    }*/
     /**
      * remove method
      * @param integer $id
@@ -256,15 +255,6 @@ class Database
      * */
     public function lastInsertedID(){
         return $this->lastInsertedID;
-    }
-    /**
-     * query method
-     * @param string $queryString
-     * @return class object
-     * */
-    public function query($queryString){
-        $this->makeQuery($queryString);
-        return $this;
     }
     /**
      * makeQuery method

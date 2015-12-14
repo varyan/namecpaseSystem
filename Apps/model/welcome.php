@@ -13,8 +13,11 @@ use System\Core\Model;
 
 class Welcome extends Model
 {
+    /**
+     * __construct method
+     * */
     public function __construct()
     {
-        parent::__construct('welcome');
+        parent::__construct();
     }
 }

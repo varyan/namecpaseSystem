@@ -9,7 +9,7 @@
 $database = array(
     'host'=>'localhost',
     'user'=>'root',
-    'pass'=>'',
+    'pass'=>'root',
     'port'=>null,
     'name'=>'system',
     'charset'=>'utf8'

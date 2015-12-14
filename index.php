@@ -15,6 +15,6 @@ define("ROOT"   ,   str_replace('\\','/',__FILE__).'/');
 
 define('FC_FILE',  $_SERVER['SCRIPT_NAME']);
 define('FC_PATH',  $_SERVER['REQUEST_URI']);
-define('TEMPLATE', APPS.'view/welcome/');
+define('TEMPLATE', 'http://varyans.dev/'.APPS.'view/welcome/');
 
 require_once (SYSTEM.'start.php');

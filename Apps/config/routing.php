@@ -1,8 +1,6 @@
 <?php
 
 $routing = array(
-    'default_controller'    =>  'welcome',
-    '(s)'                   =>  function($page){
-        return 'welcome/page/'.$page;
-    }
+    'default_controller'    =>  array('welcome','index'),
+    '(s)/(n)'                   =>  array('welcome','page',array('$0','$1'))
 );

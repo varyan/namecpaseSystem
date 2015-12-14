@@ -10,13 +10,13 @@ namespace System\Core;
 
 use System\Helpers\Model\AsArray;
 use System\Helpers\Model\AsObject;
-use System\Helpers\Model\TablePrototype;
+use System\Helpers\Model\Table;
 
 abstract class Model
 {
     use AsObject;
     use AsArray;
-    use TablePrototype;
+    use Table;
     /**
      * @var Database object $database
      * */
@@ -32,9 +32,12 @@ abstract class Model
     public function __construct($tbName = null)
     {
         $this->db = new Database();
+        $this->currentModel = strtolower(array_pop(explode('\\',get_called_class())));
         if(!is_null($tbName))
             $this->db->setTableName($tbName);
-        $this->currentModel = strtolower(array_pop(explode('\\',get_called_class())));
+        else{
+            $this->db->setTableName(strtolower($this->currentModel).'s');;
+        }
     }
     /**
      * saveData method

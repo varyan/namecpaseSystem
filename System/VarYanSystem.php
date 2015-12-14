@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Created by PhpStorm.
+ * User: VarYan
+ * Date: 09.12.2015
+ * Time: 20:59
+ */
 namespace System;
 
 class VarYanSystem{

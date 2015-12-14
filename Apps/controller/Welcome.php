@@ -22,7 +22,8 @@ class Welcome extends Controller
      * index method
      * */
     public function index(){
-        $this->useModel('menu');
+        $this->useModel(array('menu','user'));
+
         $this->renderView('index',array(
             'menus'=>$this->model->menu->allAsObject()
         ));

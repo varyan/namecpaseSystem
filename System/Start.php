@@ -30,8 +30,26 @@ if(!function_exists('load_config')){
         $file = APPS."config/".$configFileName.".php";
 
         if(file_exists($file)){
-            require $file;
+            require "$file";
             return $$configFileName;
+        }else{
+            exit("The file ".$file." dose`nt exists in ".APPS.'config folder');
+        }
+    }
+}
+
+if(!function_exists('load_item')){
+    function load_item($key){
+        $file = APPS."config/config.php";
+        if(file_exists($file)){
+            require_once "$file";
+            if(isset($config[$key])){
+                return $config[$key];
+            }else{
+                return null;
+            }
+        }else{
+            exit("Config file dose`nt have ".$key.' item');
         }
     }
 }

@@ -12,8 +12,11 @@ use System\Core\Model;
 
 class Menu extends Model
 {
+    /**
+     * __construct method
+     * */
     public function __construct()
     {
-        parent::__construct('menus');
+        parent::__construct();
     }
 }

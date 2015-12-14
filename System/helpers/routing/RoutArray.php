@@ -42,7 +42,7 @@ class RoutArray
         if(isset($this->array['args'])) {
             for ($i = 0; $i < sizeof($this->array['args']); $i++) {
                 if (strpos($this->array['args'][$i], '$') !== FALSE)
-                    $array['args'][$i] = str_replace($this->array['args'][$i], $this->args[str_replace('$', '', $this->array['args'][$i])], $this->array['args'][$i]);
+                    $this->array['args'][$i] = str_replace($this->array['args'][$i], $this->args[str_replace('$', '', $this->array['args'][$i])], $this->array['args'][$i]);
             }
             $this->args = implode('/',$this->array['args']);
             unset($this->array['args']);
