@@ -36,16 +36,20 @@ trait Table
     protected function beforeSave($data)
     {
 
-        $this->validator = new Validator();
+        if(load_item('col_validation') === TRUE){
+            $this->validator = new Validator();
 
-        foreach($this->schema() as $column){
-            if(array_key_exists($column->Field,$data)){
-                if($this->validator->setItem($column,$data[$column->Field])->isOk() !== TRUE){
-                    debug_print($this->validator->lastError(),true);
+            foreach($this->schema() as $column){
+                if(array_key_exists($column->Field,$data)){
+                    if($this->validator->setItem($column,$data[$column->Field])->isOk() !== TRUE){
+                        debug_print($this->validator->lastError(),true);
+                    }
                 }
             }
-        }
 
-        return $this->errorHandler;
+            return $this->errorHandler;
+        }else{
+            return true;
+        }
     }
 }

@@ -7,6 +7,7 @@
  */
 
 $config = array(
-    'col_validation'=>TRUE,
-    'rout_prefix'   =>'/^(\w{2})$/',
+    'col_validation'        =>  TRUE,                   // TRUE/FALSE
+    'input_auto_validation' =>  FALSE,                  // TRUE/FALSE
+    'rout_prefix'           =>  '/^(\w{2})$/',          // REGEX/FALSE
 );
