@@ -7,10 +7,12 @@
  */
 
 $database = array(
-    'host'=>'localhost',
-    'user'=>'root',
-    'pass'=>'root',
-    'port'=>null,
-    'name'=>'system',
-    'charset'=>'utf8'
+    'drive'     =>'mysql',
+    'host'      =>'localhost',
+    'user'      =>'root',
+    'pass'      =>'',
+    'port'      =>null,
+    'name'      =>'system',
+    'charset'   =>'utf8',
+    'prefix'    =>'vs_',
 );

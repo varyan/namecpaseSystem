@@ -32,8 +32,9 @@ class VarYanSystem{
      * */
     public function __construct()
     {
+        $this->cleanURL();
         if($this->absoluteURL() === FALSE){
-            $callParams = Routing::start($this->cleanURL());
+            $callParams = Routing::start($this->url);
             $this->controller = ucfirst($callParams['controller']);
             $this->method = $callParams['method'];
             $this->parameters = (trim($callParams['parameters']) !== '' && trim($callParams['parameters']) !== '/') ? explode('/',$callParams['parameters']) : null;
@@ -62,7 +63,8 @@ class VarYanSystem{
      * checker method
      * @param string $className
      * */
-    private function checker($className){
+    private function checker($className)
+    {
         $object = new \ReflectionClass($className);
         $method = $object->getMethod($this->method);
         $params = $method->getParameters();
@@ -79,15 +81,16 @@ class VarYanSystem{
     /**
      * absoluteURL
      * */
-    public function absoluteURL(){
-        $urlParts = explode('/',$this->cleanURL());
-        if(isset($urlParts[0]) && $urlParts[0] != '' && $urlParts[0] != '/'){
+    public function absoluteURL()
+    {
+        $urlParts = explode('/',$this->url);
+        if(isset($urlParts[0]) && !empty($urlParts[0]) && $urlParts[0] != '/'){
             $this->controller = ucfirst($urlParts[0]);
             $class = "Apps\\Controller\\$this->controller";
             if(!file_exists($class.'.php')){
                 return false;
             }else{
-                if(isset($urlParts[1]) && $urlParts[1] != '' && $urlParts[1] != '/'){
+                if(isset($urlParts[1]) && !empty($urlParts[1]) && $urlParts[1] != '/'){
                     $this->method = $urlParts[1];
                     if(isset($urlParts[2]) && $urlParts[2] != '' && $urlParts[2] != '/'){
                         unset($urlParts[0],$urlParts[1]);
@@ -104,6 +107,16 @@ class VarYanSystem{
      * */
     private function cleanURL(){
         $this->url = strpos(FC_PATH,'index.php') ? substr(FC_PATH,11) : ltrim(FC_PATH,'/');
+        $prefix = load_item('rout_prefix');
+        if($prefix !== FALSE && !empty($this->url)){
+            $urlParts = explode('/',$this->url);
+            if(isset($urlParts[0]) && !empty($urlParts[0])){
+                if(preg_match($prefix,$urlParts[0])){
+                    unset($urlParts[0]);
+                    $this->url = (sizeof($urlParts) > 1) ? implode('/',$urlParts) : ((sizeof($urlParts) == 1) ? $urlParts[1] : '');
+                }
+            }
+        }
         return stripcslashes(trim($this->url));
     }
 }

@@ -6,6 +6,7 @@
  * Date: 09.12.2015
  * Time: 21:30
  */
+
 namespace Apps\Controller;
 use System\Core\Controller;
 
@@ -22,7 +23,7 @@ class Welcome extends Controller
      * index method
      * */
     public function index(){
-        $this->useModel(array('menu','user'));
+        $this->useModel('menu');
 
         $this->renderView('index',array(
             'menus'=>$this->model->menu->allAsObject()

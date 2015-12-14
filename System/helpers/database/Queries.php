@@ -58,13 +58,50 @@ trait Queries {
      * */
     protected $join = '';
     /**
-     * insert method
+     * @var string $join
+     * */
+    private $rowCount = '';
+    /**
+     * getAll method
      * @param string $table
-     * @param array $data
      * @return Database object
      * */
-    public function insert($table,$data){
-        $this->insert .= " INSERT INTO ".$table." ";
+    public function getAll($table = null)
+    {
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->query("SELECT * FROM ".$this->getTableName());
+
+        return $this;
+    }
+    /**
+     * getOne method
+     * @param integer $id
+     * @param string $table
+     * @return Database object
+     * */
+    public function getOne($id,$table = null)
+    {
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->select()->from()->where('id',$id)->query();
+
+        return $this;
+    }
+    /**
+     * insert method
+     * @param array $data
+     * @param string $table
+     * @return integer
+     * */
+    public function insert($data,$table = null)
+    {
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->insert .= " INSERT INTO ".$this->getTableName()." ";
         $rows = "("; $values = "("; $i = 0;
         foreach($data as $row => $value){$i++;
             $rows .= $row;
@@ -75,7 +112,8 @@ trait Queries {
         }
         $rows .= ")"; $values .= ")";
         $this->insert .= $rows." VALUES ".$values;
-        return $this;
+        $this->query();
+        return $this->rowCount();
     }
     /**
      * select method
@@ -89,12 +127,16 @@ trait Queries {
     }
     /**
      * update method
-     * @param string $table
      * @param array $data
-     * @return Database object
+     * @param string $table (default value null)
+     * @return integer
      * */
-    public function update($table,$data){
-        $this->update .= " UPDATE ".$table." SET ";
+    public function update($data,$table = null)
+    {
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->update .= " UPDATE ".$this->getTableName()." SET ";
         $i = 0;
         foreach($data as $row => $value){$i++;
             $this->update .= $row." = '".$value."'";
@@ -103,23 +145,22 @@ trait Queries {
             }
         }
         $this->update .= " ";
-        return $this;
+        $this->query();
+        return $this->rowCount();
     }
     /**
      * delete method
-     * @param string $table
+     * @param string $table (default value null)
      * @return Database object
      * */
-    public function delete($table){
-        $this->delete .= " DELETE FROM ".$table." ";
+    public function delete($table = null)
+    {
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->delete .= " DELETE FROM ".$this->getTableName()." ";
         return $this;
     }
-    /**
-     * select method
-     * @param string $string
-     * @param string $type
-     * @return Database object
-     * */
     /**
      * from method
      * @param $table (default value null)
@@ -127,33 +168,31 @@ trait Queries {
      * */
     public function from($table = null)
     {
-        if(is_null($table)){
-            if(method_exists($this,'getTableName')){
-                $table = $this->getTableName();
-            }
-        }else{
-            if(property_exists($this,'prefix')){
-                $table = $this->prefix.$table;
-            }
-        }
-        $this->from = " FROM ".$table." ";
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->from = " FROM ".$this->getTableName()." ";
         return $this;
     }
     /**
      * where method
-     * @param array $where
-     * @param string $dimension (default value)
+     * @param string/array $where_arr_or_row
+     * @param string $dimension_or_value (default value 'and')
      * @return Database object
      * */
-    public function where(array $where,$dimension = 'and')
+    public function where($where_arr_or_row,$dimension_or_value = 'and')
     {
         $this->where = " WHERE ";
-        $counter = 0;
-        foreach($where as $item => $value){
-            $counter++;
-            $this->where .= $item." = '".$value."' ";
-            if($counter < sizeof($where))
-                $this->where .= " ".$dimension." ";
+        if(is_array($where_arr_or_row)) {
+            $counter = 0;
+            foreach ($where_arr_or_row as $item => $value) {
+                $counter++;
+                $this->where .= $item . " = '" . $value . "' ";
+                if ($counter < sizeof($where_arr_or_row))
+                    $this->where .= " " . $dimension_or_value . " ";
+            }
+        }else{
+            $this->where .= $where_arr_or_row." = '".$dimension_or_value."'";
         }
 
         return $this;
@@ -226,14 +265,46 @@ trait Queries {
         return $this;
     }
     /**
+     * tableExists method
+     * @param string $table (default value null)
+     * @return boolean
+     * */
+    public function tableExists($table = null)
+    {
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->query("SHOW TABLES LIKE '".$this->getTableName()."'");
+        return ($this->rowCount() > 0);
+    }
+    /**
+     * lastInsertedID method
+     * @return integer
+     * */
+    public function lastInsertedID()
+    {
+        return $this->lastInsertedID;
+    }
+    /**
+     * rowCount method
+     * @return integer
+     * */
+    public function rowCount()
+    {
+        return $this->rowCount;
+    }
+    /**
      * createTable method
      * @param string $name
      * @param array $conditions
-     * @param string $optional admin null (optional)
+     * @param string $optional (default value null)
      * @return object Database
      * */
-    public function createTable($name,$conditions,$optional = null){
-        $this->create .= " CREATE TABLE IF NOT EXISTS ".$name." (";
+    public function createTable($name,$conditions,$optional = null)
+    {
+        $this->setTableName($name);
+
+        $this->create .= " CREATE TABLE IF NOT EXISTS ".$this->getTableName()." (";
         $counter = 0;
         foreach($conditions as $row=>$condition){
             $counter++;
@@ -246,19 +317,49 @@ trait Queries {
             $this->create .= ", ".$optional;
         }
         $this->create .= ");";
+        $this->query();
+        return true;
+    }
+    /**
+     * getSchema method
+     * @param string $table (default value null)
+     * @return stdClass object
+     * */
+    public function getSchema($table = null)
+    {
+        if(!is_null($table))
+            $this->setTableName($table);
+
+        $this->query("DESCRIBE " . $this->getTableName());
         return $this;
     }
     /**
-     * query method
-     * @param string $queryString
+     * makeQuery method
+     * @param string $query (default value null)
      * @return Database object
      * */
-    public function query($queryString = null){
-        $this->query =  $this->select.$this->insert.$this->update.$this->delete.$this->create.$this->from.
-            $this->join.$this->where.$this->group.$this->order.$this->limit;
+    public function query($query = null){
+        $this->query = !is_null($query)
+            ? $query :  $this->select.
+                        $this->insert.
+                        $this->update.
+                        $this->delete.
+                        $this->create.
+                        $this->from.
+                        $this->join.
+                        $this->where.
+                        $this->group.
+                        $this->order.
+                        $this->limit;
 
-        echo $this->query;
-
-        exit;
+        try{
+            $this->query = $this->db->prepare($this->query);
+            $this->query->execute();
+            $this->rowCount = $this->query->rowCount();
+            $this->lastInsertedID = !empty($this->db->lastInsertId()) ? $this->db->lastInsertId() : null;
+        }catch (\PDOException $ex){
+            debug_print($ex->getMessage(),true);
+        }
+        return $this;
     }
 }

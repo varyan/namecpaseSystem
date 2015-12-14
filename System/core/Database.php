@@ -14,52 +14,49 @@ class Database
 {
     use Queries;
     /**
+     * @var string $host
+     * */
+    protected $drive = 'mysql';
+    /**
+     * @var string $host
+     * */
+    protected $host = 'localhost';
+    /**
+     * @var string $user
+     * */
+    protected $user = 'root';
+    /**
+     * @var string $pass
+     * */
+    protected $pass = '';
+    /**
+     * @var string $name
+     * */
+    protected $name = '';
+    /**
+     * @var string $port
+     * */
+    protected $port = null;
+    /**
+     * @var string $port
+     * */
+    protected $charset = 'utf8';
+    /**
+     * @var string $prefix
+     * */
+    protected $prefix = '';
+    /**
      * @var object $query
      * */
-    private $lastInsertedID;
+    protected $lastInsertedID;
     /**
      * @var string $table
      * */
-    private $table;
+    protected $table;
     /**
      * @var $connection
      * */
-    private $db;
-    /**
-     * @var string $host
-     * @default value 'localhost'
-     * */
-    private $host = 'localhost';
-    /**
-     * @var string $user
-     * @default value 'root'
-     * */
-    private $user = 'root';
-    /**
-     * @var string $pass
-     * @default value ''
-     * */
-    private $pass = '';
-    /**
-     * @var string $name
-     * @default value ''
-     * */
-    private $name = '';
-    /**
-     * @var string $port
-     * @default value null
-     * */
-    private $port = null;
-    /**
-     * @var string $port
-     * @default value null
-     * */
-    private $charset = 'utf8';
-    /**
-     * @var string $prefix
-     * @default value 'vs_'
-     * */
-    private $prefix = 'vs_';
+    protected $db;
     /**
      * __construct method
      * @param array $config
@@ -87,119 +84,13 @@ class Database
     /**
      * makeConnection method
      * */
-    private function makeConnection(){
+    protected function makeConnection(){
         try{
-            $this->db = new \PDO('mysql:host='.$this->host.';dbname='.$this->name, $this->user, $this->pass);
+            $this->db = new \PDO($this->drive.':host='.$this->host.';dbname='.$this->name, $this->user, $this->pass);
+            $this->db->exec("SET NAMES ".$this->charset);
         }catch (\PDOException $ex){
             echo $ex->getMessage();
         }
-    }
-    /**
-     * save method
-     * @param array $data
-     * @return boolean
-     * */
-    public function save($data){
-        $query = "INSERT INTO ".$this->getTableName();
-        $columns    = " ( ";
-        $values = " VALUES( ";
-        $counter = 0;
-        foreach($data as $item => $value){
-            $counter++;
-            $values     .= "'".$value."'";
-            $columns    .= $item;
-            if($counter < sizeof($data)) {
-                $values .= ", ";
-                $columns .= ", ";
-            }
-        }
-        $query .= $columns.")".$values.") ";
-        return $this->makeQuery($query);
-    }
-    /**
-     * getAll method
-     * @return stdClass object
-     * */
-    public function getAll(){
-        $query = 'SELECT * FROM '.$this->getTableName();
-        $this->makeQuery($query);
-        return $this;
-    }
-    /**
-     * getOne method
-     * @param integer $id
-     * @return stdClass object
-     * */
-    public function getOne($id){
-        $query = "SELECT * FROM ".$this->getTableName()." WHERE ".$this->getTableName().".id = '".$id."'";
-        $this->makeQuery($query);
-        return $this;
-    }
-    /**
-     * update method
-     * @param integer $id
-     * @param array $data
-     * @return class object
-     * */
-    /*public function update($id,$data){
-        $query = "UPDATE ".$this->getTableName()." SET ";
-        $counter = 0;
-        foreach($data as $item => $value){
-            $counter++;
-            $query .= $item." = '".$value."' ";
-            if($counter < sizeof($data) - 1)
-                $query .= ", ";
-        }
-        $query .= " WHERE ".$this->getTableName().".id = '".$id."'";
-        return $this->makeQuery($query);
-    }*/
-    /**
-     * remove method
-     * @param integer $id
-     * @return class object
-     * */
-    public function remove($id){
-        $query = "DELETE ".$this->getTableName()." WHERE ".$this->getTableName().".id = '".$id."'";
-        $this->makeQuery($query);
-        return $this;
-    }
-    /**
-     * getWhere method
-     * @param array $where
-     * @param string $dimension (default value 'and')
-     * @return class object
-     * */
-    public function getWhere($where,$dimension = "and"){
-        $query = "SELECT * FROM ".$this->getTableName()." WHERE ";
-        $counter = 0;
-        foreach($where as $item => $value){
-            $counter++;
-            $query .= $item." = '".$value."' ";
-            if($counter < sizeof($where))
-                $query .= " ".$dimension." ";
-        }
-        $this->makeQuery($query);
-        return $this;
-    }
-    /**
-     * getJoin method
-     * @param array $tables
-     * @structure array(
-            array('join_tb1_name','join_tb1_condition','join-type'),
-            array('join_tb2_name','join_tb2_condition','join-type'),
-     * )
-     * */
-    public function getJoin($tables){
-
-    }
-    /**
-     * getSchema method
-     * @return stdClass object
-     * */
-    public function getSchema(){
-        $query = "DESCRIBE " . $this->getTableName();
-        $this->makeQuery($query);
-        return $this;
     }
     /**
      * getTableName method
@@ -211,7 +102,7 @@ class Database
     /**
      * setTableName method
      * @param string $tableName
-     * @return class object
+     * @return Database object
      * */
     public function setTableName($tableName){
         $this->table = $tableName;
@@ -219,7 +110,7 @@ class Database
     }
     /**
      * fetch method
-     * @return stdClass object single row
+     * @return stdClass object
      * */
     public function fetch(){
         $result = $this->query->fetch(\PDO::FETCH_OBJ);
@@ -248,23 +139,5 @@ class Database
     public function fetchAllArray(){
         $result = $this->query->fetchAll(\PDO::FETCH_ASSOC);
         return $result;
-    }
-    /**
-     * lastInsertedID method
-     * @return integer
-     * */
-    public function lastInsertedID(){
-        return $this->lastInsertedID;
-    }
-    /**
-     * makeQuery method
-     * @param string $query
-     * @return boolean
-     * */
-    private function makeQuery($query){
-        $this->query = $this->db->prepare($query);
-        $this->query->execute();
-        $this->lastInsertedID = !empty($this->db->lastInsertId()) ? $this->db->lastInsertId() : null;
-        return $this->query->rowCount() ? true : false;
     }
 }

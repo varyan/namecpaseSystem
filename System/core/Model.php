@@ -36,7 +36,12 @@ abstract class Model
         if(!is_null($tbName))
             $this->db->setTableName($tbName);
         else{
-            $this->db->setTableName(strtolower($this->currentModel).'s');;
+            $name = strtolower($this->currentModel);
+            if($this->db->tableExists($name.'s'))
+                $this->db->setTableName($name.'s');
+            elseif($this->db->tableExists($name))
+                $this->db->setTableName($name);
+            else exit("The table ".$name.' dose`nt exists');
         }
     }
     /**
@@ -45,10 +50,12 @@ abstract class Model
      * @param boolean $returnID (default value boolean false)
      * @return integer/boolean
      * */
-    public function saveData($data,$returnID = false){
+    public function saveData($data,$returnID = false)
+    {
         $isValid = $this->beforeSave($data);
-        if($isValid === TRUE){
-            $result = $this->db->save($data);
+        if($isValid === TRUE)
+        {
+            $result = $this->db->insert($data);
             return ($returnID) ? $this->db->lastInsertedID() : $result;
         }else{
             debug_print($isValid,true);
@@ -56,13 +63,19 @@ abstract class Model
     }
     /**
      * updateData method
-     * @param integer $id
+     * @param array $where
      * @param array $data
      * @return integer/boolean
      * */
-    public function updateData($id,$data){
-        if($this->beforeSave($data) === TRUE){
-            $this->db->update($id,$data);
+    public function updateData($where,$data)
+    {
+        $isValid = $this->beforeSave($data);
+        if($isValid === TRUE)
+        {
+            $this->db->where($where)->update($data);
+            return $this->db->rowCount();
+        }else{
+            debug_print($isValid,true);
         }
     }
     /**

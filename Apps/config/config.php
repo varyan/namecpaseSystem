@@ -8,4 +8,5 @@
 
 $config = array(
     'col_validation'=>TRUE,
+    'rout_prefix'   =>'/^(\w{2})$/',
 );

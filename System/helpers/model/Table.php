@@ -21,16 +21,6 @@ trait Table
      * */
     private $validator;
     /**
-     * tableExists method
-     * @param string $name
-     * @return boolean
-     * */
-    public function tableExists($name)
-    {
-        $results = $this->db->query("SHOW TABLES LIKE '".$name."'");
-        return ($results->rowCount() > 0);
-    }
-    /**
      * schema method
      * @return stdClass object
      * */
