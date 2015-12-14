@@ -19,25 +19,12 @@ class Welcome extends Controller
         parent::__construct();
     }
     /**
-     * page method
-     * @param $view
+     * index method
      * */
-    public function page($view = 'index'){
-        $this->renderView($view,array(
-            'welcome'=>'Welcome to VarYansSystem '.$view.' page'
+    public function index(){
+        $this->useModel('menu');
+        $this->renderView('index',array(
+            'menus'=>$this->model->menu->allAsObject()
         ));
-    }
-    /**
-     *
-     * */
-    public function modelTests(){
-        $this->useModel('user');
-
-        $user = $this->model->user->oneWhereAsObject(array(
-            'username'=>'varyan',
-            'password'=>md5('admin007')
-        ));
-
-        debug_print($user);
     }
 }

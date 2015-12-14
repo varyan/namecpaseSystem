@@ -1,7 +1,7 @@
 <?php
 
 $routing = array(
-    'default_controller'    =>  array('welcome','page'),
+    'default_controller'    =>  'welcome',
     '(s)'                   =>  function($page){
         return 'welcome/page/'.$page;
     }

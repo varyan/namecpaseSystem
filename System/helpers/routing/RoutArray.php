@@ -44,10 +44,11 @@ class RoutArray
                 if (strpos($this->array['args'][$i], '$') !== FALSE)
                     $array['args'][$i] = str_replace($this->array['args'][$i], $this->args[str_replace('$', '', $this->array['args'][$i])], $this->array['args'][$i]);
             }
+            $this->args = implode('/',$this->array['args']);
+            unset($this->array['args']);
+        }else{
+            return true;
         }
-
-        $this->args = implode('/',$this->array['args']);
-        unset($this->array['args']);
     }
     /**
      * assocArray method
