@@ -105,8 +105,17 @@ class VarYanSystem{
     /**
      * cleanURL method
      * */
-    private function cleanURL(){
+    private function cleanURL()
+    {
         $this->url = strpos(FC_PATH,'index.php') ? substr(FC_PATH,11) : ltrim(FC_PATH,'/');
+        $this->prefixDetect();
+        return stripcslashes(trim($this->url));
+    }
+    /**
+     * prefixDetect method
+     * */
+    private function prefixDetect()
+    {
         $prefix = load_item('rout_prefix');
         if($prefix !== FALSE && !empty($this->url)){
             $urlParts = explode('/',$this->url);
@@ -117,6 +126,5 @@ class VarYanSystem{
                 }
             }
         }
-        return stripcslashes(trim($this->url));
     }
 }

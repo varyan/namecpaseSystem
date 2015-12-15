@@ -42,7 +42,7 @@ if(!function_exists('load_item')){
     function load_item($key){
         $file = APPS."config/config.php";
         if(file_exists($file)){
-            require_once "$file";
+            require "$file";
             if(isset($config[$key])){
                 return $config[$key];
             }else{
