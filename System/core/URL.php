@@ -13,7 +13,7 @@ trait URL
     /**
      * item method
      * @param $number (default value 0)
-     * @return string
+     * @return string/null
      * */
     public static function item($number = 0)
     {
@@ -28,6 +28,22 @@ trait URL
      * */
     public static function to($url,$refresh = false)
     {
-        ($refresh === TRUE) ? header('Refresh:0;url='.$url) : header('Location: '.$url, TRUE);
+        ($refresh === TRUE) ? header('Refresh:0;url='.$url) : header('Location: '.$url,TRUE);
+    }
+    /**
+     * previous method
+     * @return string/null
+     * */
+    public static function previous(){
+        return (isset($_SERVER['HTTP_REFERER']) && !empty($_SERVER['HTTP_REFERER'])) ? $_SERVER['HTTP_REFERER'] : null;
+    }
+    /**
+     * requestMethod
+     * @return string/null
+     * */
+    public static function requestMethod(){
+        return (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')
+            ? $_SERVER['HTTP_X_REQUESTED_WITH']
+            : (isset($_SERVER['REQUEST_METHOD']) && !empty($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : null);
     }
 }

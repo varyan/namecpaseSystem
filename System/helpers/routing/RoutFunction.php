@@ -81,6 +81,10 @@ class RoutFunction
      * */
     private function finishRouting($func,$args)
     {
-        $this->setRouting(call_user_func_array($func,$args));
+        if(!is_null($args)){
+            $this->setRouting(call_user_func_array($func,$args));
+        }else{
+            $this->setRouting(call_user_func($func));
+        }
     }
 }

@@ -9,6 +9,7 @@
 
 namespace Apps\Controller;
 use System\Core\Controller;
+use System\Core\URL;
 
 class Welcome extends Controller
 {
@@ -24,6 +25,8 @@ class Welcome extends Controller
      * */
     public function index(){
         $this->useModel('menu');
+
+        URL::requestMethod();
 
         $this->renderView('index',array(
             'menus'=>$this->model->menu->allAsObject()
