@@ -56,7 +56,7 @@ abstract class Controller
     {
         $currModelName = isset($model) ? $model : $this->currentController;
         $className = ucfirst($currModelName);
-        $class = "Apps\\Model\\$className";
+        $class = "Apps\\".ACTIVE."\\Model\\$className";
 
         if(file_exists(str_replace('\\','/',$class.'.php'))) {
             $this->model->{$className} = new $class();

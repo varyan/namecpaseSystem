@@ -8,6 +8,8 @@
  */
 namespace System;
 
+use System\Core\Routing;
+
 class VarYanSystem{
     /**
      * @var string $url
@@ -47,7 +49,7 @@ class VarYanSystem{
      * */
     private function start()
     {
-        $class = "Apps\\Controller\\$this->controller";
+        $class = "Apps\\".ACTIVE."\\Controller\\$this->controller";
         $this->controller = new $class();
 
         if(method_exists($this->controller,$this->method)){
@@ -86,7 +88,7 @@ class VarYanSystem{
         $urlParts = explode('/',$this->url);
         if(isset($urlParts[0]) && !empty($urlParts[0]) && $urlParts[0] != '/'){
             $this->controller = ucfirst($urlParts[0]);
-            $class = "Apps\\Controller\\$this->controller";
+            $class = "Apps\\".ACTIVE."\\Controller\\$this->controller";
             if(!file_exists($class.'.php')){
                 return false;
             }else{

@@ -8,7 +8,7 @@
 
 namespace System\Core;
 
-use System\Helpers\Database\Queries;
+use System\Core\Helpers\Database\Queries;
 
 class Database
 {

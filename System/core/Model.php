@@ -8,14 +8,14 @@
  */
 namespace System\Core;
 
-use System\Helpers\Model\AsArray;
-use System\Helpers\Model\AsObject;
-use System\Helpers\Model\Table;
+use System\Core\Helpers\Model\AsArray;
+use System\Core\Helpers\Model\AsObject;
+use System\Core\Helpers\Model\Table;
 
 abstract class Model
 {
-    use AsObject;
     use AsArray;
+    use AsObject;
     use Table;
     /**
      * @var Database object $database
