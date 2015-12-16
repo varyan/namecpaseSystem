@@ -42,6 +42,14 @@ trait Queries {
      * */
     protected $where = '';
     /**
+     * @var string $where
+     * */
+    protected $between = '';
+    /**
+     * @var string $where
+     * */
+    protected $having = '';
+    /**
      * @var string $limit
      * */
     protected $limit = '';
@@ -126,13 +134,35 @@ trait Queries {
         return $this;
     }
     /**
-     * select method
+     * distinct method
      * @param string $rows
      * @return Database object
      * */
     public function distinct($rows = '*')
     {
         $this->select = " SELECT DISTINCT ".$rows." ";
+        return $this;
+    }
+    /**
+     * concat method
+     * @param array/string $rows
+     * @param string $as
+     * @param string $delimiter (default value ',)
+     * @return Database object
+     * */
+    public function concat($rows,$as,$delimiter = ','){
+        $this->select = " SELECT concat(";
+        if(is_string($rows))
+            $rows = explode(",",$rows);
+
+        for($i = 0; $i < sizeof($rows); $i++){
+            $this->select .= $rows[$i].$delimiter;
+            if($i < sizeof($rows))
+                $this->select .= ",";
+        }
+
+        $this->select .= ") AS ".$as." ";
+
         return $this;
     }
     /**
@@ -203,6 +233,29 @@ trait Queries {
             }
         }else{
             $this->where .= $where_arr_or_row." = '".$dimension_or_value."'";
+        }
+
+        return $this;
+    }
+    /**
+     * having method
+     * @param string/array $where_arr_or_row
+     * @param string $dimension_or_value (default value 'and')
+     * @return Database object
+     * */
+    public function having($where_arr_or_row,$dimension_or_value = 'and')
+    {
+        $this->having = " WHERE ";
+        if(is_array($where_arr_or_row)) {
+            $counter = 0;
+            foreach ($where_arr_or_row as $item => $value) {
+                $counter++;
+                $this->having .= $item . " = '" . $value . "' ";
+                if ($counter < sizeof($where_arr_or_row))
+                    $this->having .= " " . $dimension_or_value . " ";
+            }
+        }else{
+            $this->having .= $where_arr_or_row." = '".$dimension_or_value."'";
         }
 
         return $this;
@@ -351,16 +404,17 @@ trait Queries {
     public function query($query = null){
         $this->query = !is_null($query)
             ? $query :  $this->select.
-                        $this->insert.
-                        $this->update.
-                        $this->delete.
-                        $this->create.
-                        $this->from.
-                        $this->join.
-                        $this->where.
-                        $this->group.
-                        $this->order.
-                        $this->limit;
+            $this->insert.
+            $this->update.
+            $this->delete.
+            $this->create.
+            $this->from.
+            $this->join.
+            $this->where.
+            $this->group.
+            $this->having.
+            $this->order.
+            $this->limit;
 
         try{
             $this->query = $this->db->prepare($this->query);
