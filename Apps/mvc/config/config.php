@@ -9,13 +9,13 @@
 $config = array(
 
     /*-----FALSE/ARRAY-----*/
-    'col_validation'        =>  TRUE,
+    'col_validation'        =>  FALSE,
 
     /*-----FALSE/ARRAY-----*/
     'input_auto_validation' =>  FALSE,
 
     /*-----REGEX/FALSE-----*/
-    'rout_prefix'           =>  '/^(\w{2})$/',
+    'rout_prefix'           =>  '/^[a-zA-Z]{2}+$/',
 
     /*-----FALSE/ARRAY-----*/
     'multi_language'        =>  array(

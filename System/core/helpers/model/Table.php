@@ -8,7 +8,8 @@
 
 namespace System\Core\Helpers\Model;
 
-use System\Core\Prototype\Validator;
+use System\Core\Error;
+use System\Core\Helpers\Database\Validator;
 
 trait Table
 {
@@ -32,6 +33,7 @@ trait Table
      * beforeSave method
      * @param array $data
      * @return boolean
+     * @throws Error
      * */
     protected function beforeSave($data)
     {
@@ -41,8 +43,8 @@ trait Table
 
             foreach($this->schema() as $column){
                 if(array_key_exists($column->Field,$data)){
-                    if($this->validator->setItem($column,$data[$column->Field])->isOk() !== TRUE){
-                        debug_print($this->validator->lastError(),true);
+                    if($this->validator->setItem($column,$data[$column->Field])->getStatus() !== TRUE){
+                        throw new Error('invalidData',$this->validator->getError());
                     }
                 }
             }

@@ -33,7 +33,7 @@ if(!function_exists('load_config')){
             require "$file";
             return $$configFileName;
         }else{
-            exit("The file ".$file." dose`nt exists in ".APPS.'config folder');
+            throw new \System\Core\Error('configFile',$file);
         }
     }
 }
@@ -49,7 +49,7 @@ if(!function_exists('load_item')){
                 return null;
             }
         }else{
-            exit("Config file dose`nt have ".$key.' item');
+            throw new \System\Core\Error('configFileItem',$key);
         }
     }
 }

@@ -92,7 +92,7 @@ class Routing
         elseif(is_object(self::$valueType))
             self::$router = new RoutObject(self::$valueType,self::$keyParts);
         else
-            exit("Undefined rout type");
+            throw new Error('undefinedRout');
 
         self::$router = self::$router->getRouter();
     }
@@ -136,7 +136,7 @@ class Routing
                 return;
             }else{
                 if($counter == sizeof(self::$routArray))
-                    exit("The rout parameter ".$routKey->getKeyPosition()." type is not valid");
+                    throw new Error('invalidRout',$routKey->getKeyPosition());
             }
         }
     }

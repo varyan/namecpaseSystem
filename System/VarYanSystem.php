@@ -8,6 +8,7 @@
  */
 namespace System;
 
+use System\Core\Error;
 use System\Core\Routing;
 
 class VarYanSystem{
@@ -58,12 +59,13 @@ class VarYanSystem{
                 ? call_user_func(array($this->controller,$this->method))
                 : call_user_func_array(array($this->controller,$this->method),$this->parameters);
         }else{
-            exit($class." controller dose`nt have ".$this->method." method");
+            throw new Error('controllerMethod',$this->method);
         }
     }
     /**
      * checker method
      * @param string $className
+     * @throws Error
      * */
     private function checker($className)
     {
@@ -74,7 +76,7 @@ class VarYanSystem{
             for($i = 0; $i < sizeof($params); $i++){
                 if(!$params[$i]->isDefaultValueAvailable()){
                     if(!isset($this->parameters[$params[0]->getPosition()])){
-                        exit('<b> '.ucfirst($className).' controller </b><b>'.$this->method.' method</b> <b>'.$params[$i]->getName().' parameter</b> dose`nt have default value');
+                        throw new Error('methodParam',array('className'=>$className, 'methodName'=>$this->method, 'param'=>$params[$i]));
                     }
                 }
             }
@@ -115,6 +117,7 @@ class VarYanSystem{
     }
     /**
      * prefixDetect method
+     * @throws Error
      * */
     private function prefixDetect()
     {
@@ -125,6 +128,8 @@ class VarYanSystem{
                 if(preg_match($prefix,$urlParts[0])){
                     unset($urlParts[0]);
                     $this->url = (sizeof($urlParts) > 1) ? implode('/',$urlParts) : ((sizeof($urlParts) == 1) ? $urlParts[1] : '');
+                }else{
+                    throw new Error('invalidRout');
                 }
             }
         }

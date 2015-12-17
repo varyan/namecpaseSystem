@@ -34,7 +34,7 @@ trait Fighting
         $this->setScore(($this->getScore()+10));
 
         $currLive = $fighter->getLive();
-        $currLive -= 10;
+        $currLive -= 5;
 
         if($currLive < 0)
             $currLive = 0;

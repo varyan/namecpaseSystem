@@ -28,6 +28,7 @@ abstract class Model
     /**
      * __construct method
      * @param string $tbName
+     * @throws Error
      * */
     public function __construct($tbName = null)
     {
@@ -41,7 +42,7 @@ abstract class Model
                 $this->db->setTableName($name.'s');
             elseif($this->db->tableExists($name))
                 $this->db->setTableName($name);
-            else exit("The table ".$name.' dose`nt exists');
+            else throw new Error('tableNotFound',$name);
         }
     }
     /**
@@ -49,6 +50,7 @@ abstract class Model
      * @param array $data
      * @param boolean $returnID (default value boolean false)
      * @return integer/boolean
+     * @throws Error
      * */
     public function saveData($data,$returnID = false)
     {
@@ -58,14 +60,15 @@ abstract class Model
             $result = $this->db->insert($data);
             return ($returnID) ? $this->db->lastInsertedID() : $result;
         }else{
-            debug_print($isValid,true);
+            throw new Error('invalidData',$isValid);
         }
     }
     /**
      * updateData method
      * @param array $where
      * @param array $data
-     * @return integer/boolean
+     * @return integer
+     * @throws Error
      * */
     public function updateData($where,$data)
     {
@@ -75,7 +78,7 @@ abstract class Model
             $this->db->where($where)->update($data);
             return $this->db->rowCount();
         }else{
-            debug_print($isValid,true);
+            throw new Error('invalidData',$isValid);
         }
     }
     /**

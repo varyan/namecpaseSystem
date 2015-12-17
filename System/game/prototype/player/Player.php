@@ -16,6 +16,14 @@ abstract class Player
      * */
     protected $name;
     /**
+     * @var float $speed
+     * */
+    protected $maxSpeed;
+    /**
+     * @var float $weight
+     * */
+    protected $weight;
+    /**
      * __construct method
      * @param string $name
      * */
@@ -39,6 +47,38 @@ abstract class Player
     public function setName($name)
     {
         $this->name = $name;
+    }
+    /**
+     * getMaxSpeed method
+     * @return float
+     * */
+    public function getMaxSpeed()
+    {
+        return $this->maxSpeed;
+    }
+    /**
+     * setMaxSpeed method
+     * @param float $speed
+     * */
+    public function setMaxSpeed($speed)
+    {
+        $this->maxSpeed = $speed;
+    }
+    /**
+     * getWeight method
+     * @return float
+     * */
+    public function getWeight()
+    {
+        return $this->weight;
+    }
+    /**
+     * setWeight method
+     * @param float $weight
+     * */
+    public function setWeight($weight)
+    {
+        $this->weight = $weight;
     }
     /**
      * getPlayerType method

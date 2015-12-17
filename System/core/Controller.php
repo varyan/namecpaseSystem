@@ -32,6 +32,7 @@ abstract class Controller
      * renderView
      * @param string $file
      * @param array $args
+     * @throws Error
      * */
     protected function renderView($file,$args = null)
     {
@@ -45,12 +46,13 @@ abstract class Controller
             }
             require_once "$currentView";
         }else{
-            exit("The file ".$currentView." dose`nt exists");
+            throw new Error('viewNotFound',$currentView);
         }
     }
     /**
      * loadModel method
      * @param null/string $model
+     * @throws Error
      * */
     private function loadModel($model = null)
     {
@@ -63,7 +65,7 @@ abstract class Controller
             $this->model->{lcfirst($className)} = new $class();
         }
         else
-            exit("The model ".$class." dose`nt exists");
+            throw new Error('modelNotFound',$class);
     }
     /**
      * getModel method
