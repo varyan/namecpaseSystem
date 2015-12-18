@@ -46,7 +46,10 @@ abstract class Controller
             }
             require_once "$currentView";
         }else{
-            throw new Error('viewNotFound',$currentView);
+            throw new Error('viewNotFound',array(
+                'viewName'      =>$currentView,
+                'controllerName'=>$this->currentController
+            ));
         }
     }
     /**
@@ -65,7 +68,10 @@ abstract class Controller
             $this->model->{lcfirst($className)} = new $class();
         }
         else
-            throw new Error('modelNotFound',$class);
+            throw new Error('modelNotFound',array(
+                'modelName'=>$class,
+                'controllerName'=>$this->currentController
+            ));
     }
     /**
      * getModel method

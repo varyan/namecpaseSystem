@@ -7,7 +7,7 @@
  */
 
 namespace System\Core;
-
+use System\Core\Prototype\VSError;
 
 class Error extends VSError
 {
@@ -18,6 +18,6 @@ class Error extends VSError
      * */
     public function __construct($type,$args = null)
     {
-        parent::__construct($type);
+        parent::__construct($type,$args);
     }
 }

@@ -6,7 +6,7 @@
  * Time: 5:52 PM
  */
 
-namespace System\Core;
+namespace System\Core\Prototype;
 
 abstract class VSError extends \Exception
 {
@@ -27,8 +27,8 @@ abstract class VSError extends \Exception
      * @param array $args
      * */
     private function undefinedError($args){
-        $args['message'] = 'Undefined error';
         debug_print($args,true);
+        $args['message'] = 'Undefined error';
     }
     /**
      * undefinedRout method
@@ -43,7 +43,7 @@ abstract class VSError extends \Exception
      * @param array $args
      * */
     private function invalidRout($args){
-        $args['message'] = 'Invalid rout';
+        $args['message'] = "The url ".(intval($args['paramPosition'])+1).' parameter has invalid rout type';
         debug_print($args,true);
     }
     /**
@@ -51,7 +51,7 @@ abstract class VSError extends \Exception
      * @param array $args
      * */
     private function viewNotFound($args){
-        $args['message'] = 'View not found';
+        $args['message'] = array_pop(explode('/',str_replace('.php','',$args['viewName']))).' view called by '.ucfirst($args['controllerName']).' controller not found';
         debug_print($args,true);
     }
     /**
@@ -59,7 +59,14 @@ abstract class VSError extends \Exception
      * @param array $args
      * */
     private function modelNotFound($args){
-        $args['message'] = 'Model not found';
+        $args['message'] = array_pop(explode('\\',$args['modelName'])).' model called by '.ucfirst($args['controllerName']).' controller not found';
+        debug_print($args,true);
+    }
+    /**
+     *
+     * */
+    private function methodDoNotHaveParam($args){
+        $args['message'] = array_pop(explode('\\',$args['className']))." controller ".$args['methodName'].' method do not required any parameter';
         debug_print($args,true);
     }
 }

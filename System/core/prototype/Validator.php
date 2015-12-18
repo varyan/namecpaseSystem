@@ -9,7 +9,25 @@
 
 namespace System\Core\Prototype;
 
-abstract class Validator
+interface Validator
 {
-
+    /**
+     * getError method
+     * */
+    public function getError();
+    /**
+     * beforeSave method
+     * @param array $validationArray
+     * */
+    public function setRules($validationArray);
+    /**
+     * beforeSave method
+     * @return array/object
+    * */
+    public function getRules();
+    /**
+     * getStatus method
+     * @return boolean
+     * */
+    public function getStatus();
 }

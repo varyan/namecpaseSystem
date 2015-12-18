@@ -47,6 +47,7 @@ class VarYanSystem{
     }
     /**
      * start method
+     * @throws Error
      * */
     private function start()
     {
@@ -72,14 +73,20 @@ class VarYanSystem{
         $object = new \ReflectionClass($className);
         $method = $object->getMethod($this->method);
         $params = $method->getParameters();
-        if(sizeof($this->parameters) != sizeof($params)){
-            for($i = 0; $i < sizeof($params); $i++){
-                if(!$params[$i]->isDefaultValueAvailable()){
-                    if(!isset($this->parameters[$params[0]->getPosition()])){
-                        throw new Error('methodParam',array('className'=>$className, 'methodName'=>$this->method, 'param'=>$params[$i]));
+        if($method->getNumberOfParameters() > 0){
+            if(sizeof($this->parameters) != sizeof($params)){
+                for($i = 0; $i < sizeof($params); $i++){
+                    if(!$params[$i]->isDefaultValueAvailable()){
+                        if(!isset($this->parameters[$params[0]->getPosition()])){
+                            throw new Error('methodParam',array('className'=>$className, 'methodName'=>$this->method, 'param'=>$params[$i]));
+                        }
                     }
                 }
+            }else{
+                //TODO::Action with correct parameters
             }
+        }elseif(sizeof($this->parameters) > 0){
+            throw new Error('methodDoNotHaveParam',array('className'=>$className, 'methodName'=>$this->method));
         }
     }
     /**
@@ -88,6 +95,7 @@ class VarYanSystem{
     public function absoluteURL()
     {
         $urlParts = explode('/',$this->url);
+
         if(isset($urlParts[0]) && !empty($urlParts[0]) && $urlParts[0] != '/'){
             $this->controller = ucfirst($urlParts[0]);
             $class = "Apps\\".ACTIVE."\\Controller\\$this->controller";
@@ -95,7 +103,13 @@ class VarYanSystem{
                 return false;
             }else{
                 if(isset($urlParts[1]) && !empty($urlParts[1]) && $urlParts[1] != '/'){
-                    $this->method = $urlParts[1];
+                    $controller = new $class();
+                    if(!method_exists($controller,$urlParts[1])){
+                        return false;
+                    }else{
+                        $this->method = $urlParts[1];
+                        $this->checker($class);
+                    }
                     if(isset($urlParts[2]) && $urlParts[2] != '' && $urlParts[2] != '/'){
                         unset($urlParts[0],$urlParts[1]);
                         $this->parameters = array_values($urlParts);
@@ -129,7 +143,9 @@ class VarYanSystem{
                     unset($urlParts[0]);
                     $this->url = (sizeof($urlParts) > 1) ? implode('/',$urlParts) : ((sizeof($urlParts) == 1) ? $urlParts[1] : '');
                 }else{
-                    throw new Error('invalidRout');
+                    throw new Error('invalidRout',array(
+                        'paramPosition'=>0
+                    ));
                 }
             }
         }

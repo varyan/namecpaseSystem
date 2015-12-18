@@ -80,6 +80,7 @@ class Routing
     }
     /**
      * detectRoutType method
+     * @throws Error
      * */
     private static function detectRoutType()
     {
@@ -92,7 +93,9 @@ class Routing
         elseif(is_object(self::$valueType))
             self::$router = new RoutObject(self::$valueType,self::$keyParts);
         else
-            throw new Error('undefinedRout');
+            throw new Error('undefinedRout',array(
+                'url'=>self::$url
+            ));
 
         self::$router = self::$router->getRouter();
     }
@@ -136,7 +139,9 @@ class Routing
                 return;
             }else{
                 if($counter == sizeof(self::$routArray))
-                    throw new Error('invalidRout',$routKey->getKeyPosition());
+                    throw new Error('invalidRout',array(
+                        'paramPosition'=>$routKey->getKeyPosition()
+                    ));
             }
         }
     }

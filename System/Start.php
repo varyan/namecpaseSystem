@@ -105,6 +105,21 @@ if(!function_exists('debug_export')){
             exit;
     }
 }
+
+if(!function_exists('get_string_between')){
+    function get_string_between($string,$beginning = '[',$end = ']') {
+        $beginningPos = strpos($string, $beginning);
+        $endPos = strpos($string, $end);
+        if ($beginningPos === false || $endPos === false) {
+            return $string;
+        }
+
+        $textToDelete = substr($string, $beginningPos, ($endPos + strlen($end)) - $beginningPos);
+
+        return $textToDelete;
+    }
+}
+
 /**
  * @functionality system Wake Up
  * */

@@ -21,5 +21,23 @@ $column_valid_types = array(
     },
     'updatedAt' =>function($date){
         return (date('Y-m-d H:i:s', strtotime($date)) == $date) ? true : false;
+    },
+    'required' =>function($data){
+        return (!empty($data)) ? true : false;
+    },
+    'trim'      =>function($data){
+        return (trim($data)) ? true : false;
+    },
+    'maxLength' =>function($data,$chars){
+        return (strlen($data) <= intval($chars)) ? true : false;
+    },
+    'minLength' =>function($data,$chars){
+        return (strlen($data) >= $chars) ? true : false;
+    },
+    'between'   =>function($data,$start,$end){
+        return (strlen($data) >= $start && strlen($data) <= $end) ? true : false;
+    },
+    'matchWith' => function($fist,$second){
+        return ($fist === $second) ? true : false;
     }
 );

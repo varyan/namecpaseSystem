@@ -8,6 +8,7 @@
  */
 namespace System\Core;
 
+use System\Core\Helpers\Database\Validator;
 use System\Core\Helpers\Model\AsArray;
 use System\Core\Helpers\Model\AsObject;
 use System\Core\Helpers\Model\Table;
@@ -22,6 +23,10 @@ abstract class Model
      * */
     protected $db;
     /**
+     * @var Database object $database
+     * */
+    private $validator;
+    /**
      * @var string $currentModel
      * */
     private $currentModel;
@@ -33,6 +38,7 @@ abstract class Model
     public function __construct($tbName = null)
     {
         $this->db = new Database();
+        $this->validator = new Validator();
         $this->currentModel = strtolower(array_pop(explode('\\',get_called_class())));
         if(!is_null($tbName))
             $this->db->setTableName($tbName);
@@ -50,36 +56,20 @@ abstract class Model
      * @param array $data
      * @param boolean $returnID (default value boolean false)
      * @return integer/boolean
-     * @throws Error
      * */
     public function saveData($data,$returnID = false)
     {
-        $isValid = $this->beforeSave($data);
-        if($isValid === TRUE)
-        {
-            $result = $this->db->insert($data);
-            return ($returnID) ? $this->db->lastInsertedID() : $result;
-        }else{
-            throw new Error('invalidData',$isValid);
-        }
+        $this->beforeSave($this->validator);
     }
     /**
      * updateData method
      * @param array $where
      * @param array $data
      * @return integer
-     * @throws Error
      * */
     public function updateData($where,$data)
     {
-        $isValid = $this->beforeSave($data);
-        if($isValid === TRUE)
-        {
-            $this->db->where($where)->update($data);
-            return $this->db->rowCount();
-        }else{
-            throw new Error('invalidData',$isValid);
-        }
+        $this->beforeSave($this->validator);
     }
     /**
      * removeData method
@@ -88,5 +78,14 @@ abstract class Model
      * */
     public function removeData($id){
 
+    }
+    /**
+     * beforeSave method
+     * @param Validator $validator
+     * @return boolean/array
+     * */
+    protected function beforeSave(Validator $validator)
+    {
+        return ($validator->getStatus() === 'success') ? true : false;
     }
 }

@@ -23,7 +23,7 @@ class RoutKey
     /**
      * @var integer $position
      * */
-    private $position;
+    private $position = 0;
     /**
      * @var string $key
      * @default value string ''

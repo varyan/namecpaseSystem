@@ -8,18 +8,43 @@
 
 namespace System\Core;
 
-class Validator {
+class Validator implements \System\Core\Prototype\Validator{
     /**
-     * __construct method
+     * @var array/object $rules
      * */
-    public function __construct(){
-
+    private $rules;
+    /**
+     * beforeSave method
+     * */
+    public function getStatus()
+    {
+        // TODO: Implement beforeSave() method.
     }
     /**
-     * init
-     * @param array $validation
+     * setRules method
+     * @param array $validatorArray
+     * @return Validator object
      * */
-    public function setRules($validation){
-
+    public function setRules($validatorArray)
+    {
+        // TODO: Implement setRules() method.
+        return $this;
+    }
+    /**
+     * getRules method
+     * @return array/object
+     * */
+    public function getRules()
+    {
+        // TODO: Implement setRules() method.
+        return $this->rules;
+    }
+    /**
+     * getError method
+     * @return array
+     * */
+    public function getError()
+    {
+        // TODO: Implement getError() method.
     }
 }
