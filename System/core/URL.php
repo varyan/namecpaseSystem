@@ -46,4 +46,14 @@ trait URL
             ? $_SERVER['HTTP_X_REQUESTED_WITH']
             : (isset($_SERVER['REQUEST_METHOD']) && !empty($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : null);
     }
+    /**
+     * base method
+     * @param string $url (default value '')
+     * @return string
+     * */
+    public static function base($url = ''){
+        $currentUrl = (isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS'])) ? 'https://' : 'http://';
+        $currentUrl .= (strpos($url,'http') !== FALSE) ? $url : $_SERVER['HTTP_HOST'].'/'.$url;
+        return $currentUrl;
+    }
 }

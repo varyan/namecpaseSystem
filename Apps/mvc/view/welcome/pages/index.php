@@ -1,41 +1,3 @@
-<!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<title>VarYan`s System | MVC Framework</title>
-		<meta name="description" content="VarYan`s System a Bootstrap-based, Responsive HTML5 Template">
-		<meta name="author" content="htmlcoder.me">
-
-		<!-- Mobile Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="<?=TEMPLATE?>images/icon-vs.png">
-
-		<!-- Web Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
-
-		<!-- Bootstrap core CSS -->
-		<link href="<?=TEMPLATE?>bootstrap/css/bootstrap.css" rel="stylesheet">
-
-		<!-- Font Awesome CSS -->
-		<link href="<?=TEMPLATE?>fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
-
-		<!-- Plugins -->
-		<link href="<?=TEMPLATE?>css/animations.css" rel="stylesheet">
-
-		<!-- VarYan`s System core CSS file -->
-		<link href="<?=TEMPLATE?>css/style.css" rel="stylesheet">
-
-		<!-- Custom css --> 
-		<link href="<?=TEMPLATE?>css/custom.css" rel="stylesheet">
-	</head>
-
-	<body class="no-trans">
 		<!-- scrollToTop -->
 		<!-- ================ -->
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
@@ -986,7 +948,6 @@
 			</div>
 		</div>
 		<!-- section end -->
-
 		<!-- footer start -->
 		<!-- ================ -->
 		<footer id="footer">
@@ -1061,30 +1022,3 @@
 
 		</footer>
 		<!-- footer end -->
-
-		<!-- JavaScript files placed at the end of the document so the pages load faster
-		================================================== -->
-		<!-- Jquery and Bootstap core js files -->
-		<script type="text/javascript" src="<?=TEMPLATE?>plugins/jquery.min.js"></script>
-		<script type="text/javascript" src="<?=TEMPLATE?>bootstrap/js/bootstrap.min.js"></script>
-
-		<!-- Modernizr javascript -->
-		<script type="text/javascript" src="<?=TEMPLATE?>plugins/modernizr.js"></script>
-
-		<!-- Isotope javascript -->
-		<script type="text/javascript" src="<?=TEMPLATE?>plugins/isotope/isotope.pkgd.min.js"></script>
-		
-		<!-- Backstretch javascript -->
-		<script type="text/javascript" src="<?=TEMPLATE?>plugins/jquery.backstretch.min.js"></script>
-
-		<!-- Appear javascript -->
-		<script type="text/javascript" src="<?=TEMPLATE?>plugins/jquery.appear.js"></script>
-
-		<!-- Initialization of Plugins -->
-		<script type="text/javascript" src="<?=TEMPLATE?>js/template.js"></script>
-
-		<!-- Custom Scripts -->
-		<script type="text/javascript" src="<?=TEMPLATE?>js/custom.js"></script>
-
-	</body>
-</html>

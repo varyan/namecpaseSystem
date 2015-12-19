@@ -51,11 +51,10 @@ class VarYanSystem{
      * */
     private function start()
     {
-        $class = "Apps\\".ACTIVE."\\Controller\\$this->controller";
-        $this->controller = new $class();
+        $this->controller = load_class($this->controller);
 
         if(method_exists($this->controller,$this->method)){
-            $this->checker($class);
+            $this->checker($this->controller);
             is_null($this->parameters)
                 ? call_user_func(array($this->controller,$this->method))
                 : call_user_func_array(array($this->controller,$this->method),$this->parameters);
@@ -98,22 +97,19 @@ class VarYanSystem{
 
         if(isset($urlParts[0]) && !empty($urlParts[0]) && $urlParts[0] != '/'){
             $this->controller = ucfirst($urlParts[0]);
-            $class = "Apps\\".ACTIVE."\\Controller\\$this->controller";
-            if(!file_exists($class.'.php')){
+            $controller = load_class($this->controller);
+            if($controller === FALSE)
                 return false;
-            }else{
-                if(isset($urlParts[1]) && !empty($urlParts[1]) && $urlParts[1] != '/'){
-                    $controller = new $class();
-                    if(!method_exists($controller,$urlParts[1])){
-                        return false;
-                    }else{
-                        $this->method = $urlParts[1];
-                        $this->checker($class);
-                    }
-                    if(isset($urlParts[2]) && $urlParts[2] != '' && $urlParts[2] != '/'){
-                        unset($urlParts[0],$urlParts[1]);
-                        $this->parameters = array_values($urlParts);
-                    }
+            if(isset($urlParts[1]) && !empty($urlParts[1]) && $urlParts[1] != '/'){
+                if(!method_exists($controller,$urlParts[1])){
+                    return false;
+                }else{
+                    $this->method = $urlParts[1];
+                    $this->checker($controller);
+                }
+                if(isset($urlParts[2]) && $urlParts[2] != '' && $urlParts[2] != '/'){
+                    unset($urlParts[0],$urlParts[1]);
+                    $this->parameters = array_values($urlParts);
                 }
             }
         }else{return false;}

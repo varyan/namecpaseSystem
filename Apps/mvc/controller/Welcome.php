@@ -25,16 +25,22 @@ class Welcome extends Controller
      * */
     public function index(){
 
-        $this->useModel(array('user','menu'));
+        $this->useModel('menu');
 
-        $this->model->user->saveData(array(
-            'username'=>'user',
-            'password'=>md5('user123'),
-            'email'=>'admin@ayceqart.am',
-        ));
+        $this->withVars(array(
+            'page'  =>'pages/index',
+            'menus' =>$this->model->menu->allAsObject()
+        ))->renderView('layouts/content');
+    }
+    /**
+     * view method
+     * @param string $page
+     * */
+    public function view($page){
+        $page = 'pages/'.$page;
 
-        $this->renderView('index',array(
-            'menus'=>$this->model->menu->allAsObject()
-        ));
+        $this->withVars(array(
+            'page'=>$page,
+        ))->renderView('layouts/content');
     }
 }

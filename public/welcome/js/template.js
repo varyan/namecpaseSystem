@@ -6,11 +6,11 @@
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  * File Description: Initializations of plugins 
  */
-
+var URL;
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner.jpg');
+		$(".banner-image").backstretch(URL+'images/banner.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------

@@ -8,5 +8,7 @@
 
 $routing = array(
     'default_controller'    =>  'welcome',
-    'welcome/welcome/index' =>  'welcome/index',
+    '(s)'                   =>  function($param){
+        exit($param);
+    },
 );

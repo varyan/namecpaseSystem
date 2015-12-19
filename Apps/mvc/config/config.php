@@ -15,7 +15,7 @@ $config = array(
     'input_auto_validation' =>  FALSE,
 
     /*-----REGEX/FALSE-----*/
-    'rout_prefix'           =>  '/^[a-zA-Z]{2}+$/',
+    'rout_prefix'           =>  FALSE,//'/^[a-zA-Z]{2}+$/',
 
     /*-----FALSE/ARRAY-----*/
     'multi_language'        =>  array(

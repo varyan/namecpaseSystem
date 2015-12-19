@@ -19,6 +19,10 @@ abstract class Controller
      * */
     private $currentController;
     /**
+     * @var $loadVars
+     * */
+    private $loadVars = array();
+    /**
      * __construct method
      * @param boolean (default value boolean false)
      * */
@@ -36,21 +40,44 @@ abstract class Controller
      * */
     protected function renderView($file,$args = null)
     {
-        $viewDefault = APPS.'view/'.$this->currentController.'/'.$file.'.php';
-        $viewCustom  = APPS.'view/'.$file.'.php';
+        $viewDefault = APPS.ACTIVE.'view/'.$this->currentController.'/'.$file.'.php';
+        $viewCustom  = APPS.ACTIVE.'view/'.$file.'.php';
         $currentView = file_exists($viewCustom) ? $viewCustom : $viewDefault;
 
         if(file_exists($currentView)){
             if(!is_null($args)) {
-                extract($args);
+                $this->withVars($args);
             }
-            require_once "$currentView";
+            extract($this->loadVars);
+            require "$currentView";
         }else{
             throw new Error('viewNotFound',array(
                 'viewName'      =>$currentView,
                 'controllerName'=>$this->currentController
             ));
         }
+    }
+    /**
+     * withVars method
+     * @param array
+     * @return Controller
+     * */
+    protected function withVars($args){
+        /**
+         * @functionality will change array/object to array
+         * */
+        $args = (array)$args;
+        /**
+         * @functionality will loop throw new vars for view
+         * */
+        foreach ($args as $key => $val)
+            $this->loadVars[$key] = $val;
+        /**
+         * functionality will merge old assigned params with new vars in one array
+         * */
+        $this->loadVars = array_merge($this->loadVars,$args);
+
+        return $this;
     }
     /**
      * loadModel method
@@ -61,17 +88,7 @@ abstract class Controller
     {
         $currModelName = isset($model) ? $model : $this->currentController;
         $className = ucfirst($currModelName);
-        $class = "Apps\\".ACTIVE."\\Model\\$className";
-
-        if(file_exists(str_replace('\\','/',$class.'.php'))) {
-            $this->model->{$className} = new $class();
-            $this->model->{lcfirst($className)} = new $class();
-        }
-        else
-            throw new Error('modelNotFound',array(
-                'modelName'=>$class,
-                'controllerName'=>$this->currentController
-            ));
+        $this->model->{$className} = $this->model->{lcfirst($className)} = load_class($className,'Model');
     }
     /**
      * getModel method

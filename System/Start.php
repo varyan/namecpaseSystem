@@ -6,6 +6,8 @@ if(!function_exists('VarYanSystem_autoload')){
      * @param string $className
      * */
     function VarYanSystem_autoload($className){
+
+        $count = 1;
         $className = ltrim($className, '\\');
         $fileName  = '';
         if ($lastNsPos = strrpos($className, '\\')) {
@@ -13,7 +15,9 @@ if(!function_exists('VarYanSystem_autoload')){
             $className = substr($className, $lastNsPos + 1);
             $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
         }
+
         $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
+        $fileName = str_replace('/','\\',preg_replace('/Apps/',APPS,preg_replace('/System/',SYSTEM,$fileName,1),1));
 
         if(file_exists($fileName)){
             require $fileName;
@@ -25,9 +29,21 @@ if(!function_exists('VarYanSystem_autoload')){
     spl_autoload_register('VarYanSystem_autoload');
 }
 
+if(!function_exists('load_class')){
+    /**
+     * load_class method
+     * @param string $className
+     * @param string $type
+     * */
+    function load_class($className,$type = 'Controller'){
+        $class = str_replace('\\\\','\\',"Apps\\".str_replace('/','\\',ACTIVE)."\\$type\\$className");
+        return new $class();
+    }
+}
+
 if(!function_exists('load_config')){
     function &load_config($configFileName = 'config'){
-        $file = APPS."config/".$configFileName.".php";
+        $file = APPS.ACTIVE."config/".$configFileName.".php";
 
         if(file_exists($file)){
             require "$file";
@@ -40,7 +56,7 @@ if(!function_exists('load_config')){
 
 if(!function_exists('load_item')){
     function load_item($key){
-        $file = APPS."config/config.php";
+        $file = APPS.ACTIVE."config/config.php";
         if(file_exists($file)){
             require "$file";
             if(isset($config[$key])){
