@@ -101,7 +101,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 id="about" class="title text-center">About <span>VarYan`s System</span></h1>
+						<h1 id="controller" class="title text-center">About <span>VarYan`s System</span></h1>
 						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia, aspernatur.</p>
 						<div class="space"></div>
 						<div class="row">
@@ -186,7 +186,7 @@
 		<!-- ================ -->
 		<div class="section translucent-bg bg-image-1 blue">
 			<div class="container object-non-visible" data-animation-effect="fadeIn">
-				<h1 id="services"  class="text-center title">VarYan`s System Services</h1>
+				<h1 id="model"  class="text-center title">VarYan`s System Services</h1>
 				<div class="space"></div>
 				<div class="row">
 					<div class="col-sm-6">

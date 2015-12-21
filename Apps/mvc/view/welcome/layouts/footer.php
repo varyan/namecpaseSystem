@@ -1,6 +1,7 @@
 <!-- JavaScript files placed at the end of the document so the pages load faster
 ================================================== -->
-<!-- Jquery and Bootstap core js files -->
+<!-- Jquery and Bootstap core js files -->\
+<div class="elevator-wrapper"></div>
 <script>URL = '<?=TEMPLATE?>';</script>
 <script type="text/javascript" src="<?=TEMPLATE?>plugins/jquery.min.js"></script>
 <script type="text/javascript" src="<?=TEMPLATE?>bootstrap/js/bootstrap.min.js"></script>
@@ -22,6 +23,5 @@
 
 <!-- Custom Scripts -->
 <script type="text/javascript" src="<?=TEMPLATE?>js/custom.js"></script>
-
 </body>
 </html>

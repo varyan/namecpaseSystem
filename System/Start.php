@@ -17,7 +17,7 @@ if(!function_exists('VarYanSystem_autoload')){
         }
 
         $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
-        $fileName = str_replace('/','\\',preg_replace('/Apps/',APPS,preg_replace('/System/',SYSTEM,$fileName,1),1));
+        $fileName = str_replace('/','\\',preg_replace('/Apps/',APPS,preg_replace('/System/',SYSTEM,preg_replace('/Plugins/',PLUGINS,$fileName,1),1),1));
 
         if(file_exists($fileName)){
             require $fileName;
@@ -34,9 +34,13 @@ if(!function_exists('load_class')){
      * load_class method
      * @param string $className
      * @param string $type
+     * @return boolean/object
      * */
     function load_class($className,$type = 'Controller'){
         $class = str_replace('\\\\','\\',"Apps\\".str_replace('/','\\',ACTIVE)."\\$type\\$className");
+        if(!class_exists($class)){
+            return false;
+        }
         return new $class();
     }
 }

@@ -8,7 +8,4 @@
 
 $routing = array(
     'default_controller'    =>  'welcome',
-    '(s)'                   =>  function($param){
-        exit($param);
-    },
 );

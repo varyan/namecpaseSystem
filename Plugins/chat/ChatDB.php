@@ -6,7 +6,7 @@
  * Time: 21:41
  */
 
-namespace VSPlugins\Chat;
+namespace Plugins\Chat;
 
 
 class ChatDB

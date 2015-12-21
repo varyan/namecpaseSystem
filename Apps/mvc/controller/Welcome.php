@@ -1,14 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: VarYan
- * Date: 09.12.2015
- * Time: 21:30
- */
-
 namespace Apps\MVC\Controller;
-
 use System\Core\Controller;
 
 class Welcome extends Controller
@@ -24,23 +16,19 @@ class Welcome extends Controller
      * index method
      * */
     public function index(){
-
+        /**
+         * this will load menu model
+         * you can load one model like this or more with array('model1','model2',...)
+         * */
         $this->useModel('menu');
-
+        /**
+         * this will create page and menus variables and send to view
+         * the render view will load view file
+         * you can create variables with withVars method or pass them as second array parameter to renderView method
+         * */
         $this->withVars(array(
             'page'  =>'pages/index',
             'menus' =>$this->model->menu->allAsObject()
-        ))->renderView('layouts/content');
-    }
-    /**
-     * view method
-     * @param string $page
-     * */
-    public function view($page){
-        $page = 'pages/'.$page;
-
-        $this->withVars(array(
-            'page'=>$page,
         ))->renderView('layouts/content');
     }
 }

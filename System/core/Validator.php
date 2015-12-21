@@ -8,18 +8,11 @@
 
 namespace System\Core;
 
-class Validator implements \System\Core\Prototype\Validator{
+class Validator extends \System\Core\Prototype\Validator{
     /**
      * @var array/object $rules
      * */
     private $rules;
-    /**
-     * beforeSave method
-     * */
-    public function getStatus()
-    {
-        // TODO: Implement beforeSave() method.
-    }
     /**
      * setRules method
      * @param array $validatorArray

@@ -87,6 +87,7 @@ class Database
     protected function makeConnection(){
         try{
             $this->db = new \PDO($this->drive.':host='.$this->host.';dbname='.$this->name, $this->user, $this->pass);
+            $this->db->setAttribute(\PDO::ATTR_ERRMODE,\PDO::ERRMODE_EXCEPTION);
             $this->db->exec("SET NAMES ".$this->charset);
         }catch (\PDOException $ex){
             echo $ex->getMessage();

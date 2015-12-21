@@ -98,20 +98,23 @@ class VarYanSystem{
         if(isset($urlParts[0]) && !empty($urlParts[0]) && $urlParts[0] != '/'){
             $this->controller = ucfirst($urlParts[0]);
             $controller = load_class($this->controller);
+
             if($controller === FALSE)
                 return false;
-            if(isset($urlParts[1]) && !empty($urlParts[1]) && $urlParts[1] != '/'){
-                if(!method_exists($controller,$urlParts[1])){
-                    return false;
-                }else{
-                    $this->method = $urlParts[1];
-                    $this->checker($controller);
-                }
-                if(isset($urlParts[2]) && $urlParts[2] != '' && $urlParts[2] != '/'){
-                    unset($urlParts[0],$urlParts[1]);
-                    $this->parameters = array_values($urlParts);
-                }
+
+            $method = (isset($urlParts[1]) && !empty($urlParts[1]) && $urlParts[1] != '/') ? $urlParts[1] : 'index';
+
+            if(!method_exists($controller,$method)){
+                return false;
+            }else{
+                $this->method = $method;
+                $this->checker($controller);
             }
+            if(isset($urlParts[2]) && $urlParts[2] != '' && $urlParts[2] != '/'){
+                unset($urlParts[0],$urlParts[1]);
+                $this->parameters = array_values($urlParts);
+            }
+
         }else{return false;}
 
         return true;

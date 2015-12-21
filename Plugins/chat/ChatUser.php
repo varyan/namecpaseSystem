@@ -6,7 +6,7 @@
  * Time: 12:17
  */
 
-namespace VSPlugins\Chat;
+namespace Plugins\Chat;
 
 class ChatUser
 {

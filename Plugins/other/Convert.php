@@ -6,7 +6,7 @@
  * Time: 21:08
  */
 
-namespace VSPlugins\Other;
+namespace Plugins\Other;
 
 class Convert
 {

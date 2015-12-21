@@ -120,6 +120,7 @@ trait Queries {
         }
         $rows .= ")"; $values .= ")";
         $this->insert .= $rows." VALUES ".$values;
+
         $this->query();
         return $this->rowCount();
     }
@@ -341,10 +342,19 @@ trait Queries {
         return ($this->rowCount() > 0);
     }
     /**
+     * setLastID method
+     * */
+    private function setLastID(){
+        $lastIdQuery = $this->db->prepare('SELECT LAST_INSERT_ID() as last_id');
+        $lastIdQuery->execute();
+        $last_id = $lastIdQuery->fetch();
+        $this->lastInsertedID = intval($last_id);
+    }
+    /**
      * lastInsertedID method
      * @return integer
      * */
-    public function lastInsertedID()
+    public function lastID()
     {
         return $this->lastInsertedID;
     }
@@ -420,9 +430,9 @@ trait Queries {
             $this->query = $this->db->prepare($this->query);
             $this->query->execute();
             $this->rowCount = $this->query->rowCount();
-            $this->lastInsertedID = !empty($this->db->lastInsertId()) ? $this->db->lastInsertId() : null;
+            $this->setLastID();
         }catch (\PDOException $ex){
-            debug_print($ex->getMessage(),true);
+            debug_dump($ex->getMessage(),true);
         }
         return $this;
     }

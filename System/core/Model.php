@@ -25,7 +25,7 @@ abstract class Model
     /**
      * @var Database object $database
      * */
-    private $validator;
+    protected $validator;
     /**
      * @var string $currentModel
      * */
@@ -59,7 +59,13 @@ abstract class Model
      * */
     public function saveData($data,$returnID = false)
     {
-        $this->beforeSave($this->validator);
+        if($this->validator->getStatus() === 'success') {
+            $save = $this->db->insert($data);
+            return ($returnID === true) ? $this->db->lastID() : $save;
+        }else{
+            //TODO:: error of insert data into table
+            return $this->validator->getError();
+        }
     }
     /**
      * updateData method
@@ -69,23 +75,22 @@ abstract class Model
      * */
     public function updateData($where,$data)
     {
-        $this->beforeSave($this->validator);
+        if($this->validator->getStatus() === 'success') {
+            return $this->db
+                ->where($where)
+                ->update($data);
+        }else{
+            //TODO:: error of update data into table
+            $this->validator->getError();
+        }
     }
     /**
      * removeData method
      * @param integer $id
      * @return integer/boolean
      * */
-    public function removeData($id){
-
-    }
-    /**
-     * beforeSave method
-     * @param Validator $validator
-     * @return boolean/array
-     * */
-    protected function beforeSave(Validator $validator)
+    public function removeData($id)
     {
-        return ($validator->getStatus() === 'success') ? true : false;
+
     }
 }

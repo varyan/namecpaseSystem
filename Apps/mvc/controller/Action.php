@@ -17,9 +17,18 @@ class Action extends Controller
         parent::__construct();
     }
     /**
-     *
+     * register method
      * */
     public function register(){
-        debug_print($_POST,true);
+        $this->useModel('user');
+        $data = $_POST;
+        $data['password'] = md5($data['password']);
+        unset($data['conf_password']);
+        $data['createdAt'] = date('Y-m-d H:i:s');
+        $data['updatedAt'] = date('Y-m-d H:i:s');
+
+        $save = $this->model->user->saveData($data,true);
+
+        debug_print($save,true);
     }
 }

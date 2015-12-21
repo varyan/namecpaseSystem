@@ -6,7 +6,7 @@
  * Time: 10:27
  */
 
-namespace VSPlugins\Chat;
+namespace Plugins\Chat;
 
 trait Chatter
 {
