@@ -34,26 +34,23 @@ trait URL
      * previous method
      * @return string/null
      * */
-    public static function previous(){
+    public static function previous()
+    {
         return (isset($_SERVER['HTTP_REFERER']) && !empty($_SERVER['HTTP_REFERER'])) ? $_SERVER['HTTP_REFERER'] : null;
-    }
-    /**
-     * requestMethod
-     * @return string/null
-     * */
-    public static function requestMethod(){
-        return (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')
-            ? $_SERVER['HTTP_X_REQUESTED_WITH']
-            : (isset($_SERVER['REQUEST_METHOD']) && !empty($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : null);
     }
     /**
      * base method
      * @param string $url (default value '')
      * @return string
      * */
-    public static function base($url = ''){
-        $currentUrl = (isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS'])) ? 'https://' : 'http://';
-        $currentUrl .= (strpos($url,'http') !== FALSE) ? $url : $_SERVER['HTTP_HOST'].'/'.$url;
+    public static function base($url = '')
+    {
+        if(defined('TEMPLATE')){
+            $currentUrl = TEMPLATE.'/'.$url;
+        }else {
+            $currentUrl = (isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS'])) ? 'https://' : 'http://';
+            $currentUrl .= (strpos($url, 'http') !== FALSE) ? $url : $_SERVER['HTTP_HOST'] . '/' . $url;
+        }
         return $currentUrl;
     }
 }

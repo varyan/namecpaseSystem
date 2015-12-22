@@ -15,6 +15,7 @@ $date->format('Y-m-d H:i:s');
 $system_path    = "../System";
 $plugins_path   = "../Plugins";
 $apps_path      = "../Apps";
+
 $template_path  = "welcome";
 
 /**
@@ -64,16 +65,16 @@ if(is_dir($plugins_path)){
  * defining ROOT constant
  * @define ROOT constant
  * */
-define("ROOT"   ,   str_replace('\\','/',__FILE__).'/');
+define("ROOT"   ,   dirname(__FILE__).'/');
 
 /**
  * check is valid folder $template_path
  * @define TEAM constant
  * */
 if(is_dir($template_path)){
-    define('TEAM'   ,'/public/'.$template_path.'/');
+    define('TEAM'   ,$template_path.'/');
 }else{
-    exit('The active application folder dose`nt set correctly');
+    exit('The template folder dose`nt set correctly');
 }
 
 /**
@@ -90,8 +91,8 @@ if(is_dir(APPS.$active_app)){
  * @define TEMPLATE constant
  * */
 define('TEMPLATE', (isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS']))
-    ? "https://$_SERVER[HTTP_HOST]".TEAM
-    : "http://$_SERVER[HTTP_HOST]".TEAM);
+    ? "https://$_SERVER[HTTP_HOST]".'/'.TEAM
+    : "http://$_SERVER[HTTP_HOST]".'/'.TEAM);
 
 /**
  * so lets start our system
