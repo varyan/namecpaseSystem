@@ -17,7 +17,7 @@ if(!function_exists('VarYanSystem_autoload')){
         }
 
         $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
-        $fileName = str_replace('/','\\',preg_replace('/Apps/',APPS,preg_replace('/System/',SYSTEM,preg_replace('/Plugins/',PLUGINS,$fileName,1),1),1));
+        $fileName = str_replace('/','\\',preg_replace('/Apps/',APPS,preg_replace('/System/',SYSTEM,preg_replace('/Plugins/',PLUGINS,$fileName,$count),$count),$count));
 
         if(file_exists($fileName)){
             require $fileName;

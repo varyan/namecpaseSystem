@@ -2,194 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f011aef7-bdf5-4252-8db5-afd27ffe7036" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/mvc/config/generate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/mvc/model/Later.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/controller/HenoController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/controller/VarYanController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/model/HenoModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/model/VarYanModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/System/core/factory/MVCFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/System/core/prototype/Factory.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/model/Welcome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/templates/chat/css/chat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/templates/chat/js/chat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/templates/chat/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/templates/chat/pages/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/templates/chat/pages/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/templates/chat/pages/response.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/config/column_valid_types.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/config/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/config/database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/config/route_types.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/config/routing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/controller/Game.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/players/Car.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/css/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/css/animations.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/fonts/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/isotope/isotope.pkgd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/isotope/isotope.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/jquery-1.11.1.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/jquery.appear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/jquery.backstretch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/welcome/plugins/modernizr.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/assets/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/assets/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/public/assets/bootstrap/js/npm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/css/animate.css" afterPath="$PROJECT_DIR$/public/assets/css/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/css/animations.css" afterPath="$PROJECT_DIR$/public/assets/css/animations.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/css/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/bordered-pulled.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/core.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/fixed-width.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/font-awesome.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/icons.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/larger.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/list.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/mixins.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/path.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/rotated-flipped.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/spinning.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/stacked.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/variables.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_core.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_fixed-width.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_larger.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_path.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_spinning.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_stacked.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/fonts/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/font-awesome.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/isotope/isotope.pkgd.js" afterPath="$PROJECT_DIR$/public/assets/plugins/isotope/isotope.pkgd.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/isotope/isotope.pkgd.min.js" afterPath="$PROJECT_DIR$/public/assets/plugins/isotope/isotope.pkgd.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/jquery-1.11.1.min.map" afterPath="$PROJECT_DIR$/public/assets/plugins/jquery-1.11.1.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/jquery.appear.js" afterPath="$PROJECT_DIR$/public/assets/plugins/jquery.appear.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/jquery.backstretch.min.js" afterPath="$PROJECT_DIR$/public/assets/plugins/jquery.backstretch.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/jquery.js" afterPath="$PROJECT_DIR$/public/assets/plugins/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/jquery.min.js" afterPath="$PROJECT_DIR$/public/assets/plugins/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Apps/racing/view/game/plugins/modernizr.js" afterPath="$PROJECT_DIR$/public/assets/plugins/modernizr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/System/core/URL.php" afterPath="$PROJECT_DIR$/System/core/library/URL.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/css/custom.css" afterPath="$PROJECT_DIR$/public/assets/css/custom.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/banner.jpg" afterPath="$PROJECT_DIR$/public/assets/images/banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/bg-image-1.jpg" afterPath="$PROJECT_DIR$/public/assets/images/bg-image-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/bg-image-2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/bg-image-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/client-1.png" afterPath="$PROJECT_DIR$/public/assets/images/client-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/client-2.png" afterPath="$PROJECT_DIR$/public/assets/images/client-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/client-3.png" afterPath="$PROJECT_DIR$/public/assets/images/client-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/client-4.png" afterPath="$PROJECT_DIR$/public/assets/images/client-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/client-5.png" afterPath="$PROJECT_DIR$/public/assets/images/client-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/client-6.png" afterPath="$PROJECT_DIR$/public/assets/images/client-6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/icon-vs.png" afterPath="$PROJECT_DIR$/public/assets/images/icon-vs.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/logo.png" afterPath="$PROJECT_DIR$/public/assets/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-1.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-10.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-11.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-12.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-3.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-4.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-5.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-6.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-7.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-8.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/portfolio-9.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/section-image-1.png" afterPath="$PROJECT_DIR$/public/assets/images/section-image-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/testimonial-1.png" afterPath="$PROJECT_DIR$/public/assets/images/testimonial-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/testimonial-2.png" afterPath="$PROJECT_DIR$/public/assets/images/testimonial-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/images/testimonial-3.png" afterPath="$PROJECT_DIR$/public/assets/images/testimonial-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/js/custom.js" afterPath="$PROJECT_DIR$/public/assets/js/elevator.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/welcome/js/template.js" afterPath="$PROJECT_DIR$/public/assets/js/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/assets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/column_valid_types.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/generate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/route_types.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/routing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/start_use.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/controller/Action.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/controller/Welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/navbar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/styles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/ReadMe.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/controller/ArmanController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/controller/DavitController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/model/ArmanModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/model/DavitModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/System/core/Asset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-post.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/contact.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-flex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-nivo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-basic-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3-alternate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-left.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-right.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/config/config.php" afterPath="$PROJECT_DIR$/Apps/mvc/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/config/database.php" afterPath="$PROJECT_DIR$/Apps/mvc/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/config/upload.php" afterPath="$PROJECT_DIR$/Apps/mvc/config/upload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/controller/Action.php" afterPath="$PROJECT_DIR$/Apps/mvc/controller/Action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/controller/Welcome.php" afterPath="$PROJECT_DIR$/Apps/mvc/controller/Welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/model/User.php" afterPath="$PROJECT_DIR$/Apps/mvc/model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/footer.php" afterPath="$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/pages/index.php" afterPath="$PROJECT_DIR$/Apps/mvc/view/welcome/pages/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/Start.php" afterPath="$PROJECT_DIR$/System/Start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/VarYanSystem.php" afterPath="$PROJECT_DIR$/System/VarYanSystem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/Model.php" afterPath="$PROJECT_DIR$/System/core/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/Request.php" afterPath="$PROJECT_DIR$/System/core/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/Validator.php" afterPath="$PROJECT_DIR$/System/core/Validator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/helpers/other/Generate.php" afterPath="$PROJECT_DIR$/System/core/helpers/other/Generate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/Controller.php" afterPath="$PROJECT_DIR$/System/core/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/Database.php" afterPath="$PROJECT_DIR$/System/core/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/prototype/VSError.php" afterPath="$PROJECT_DIR$/System/core/prototype/VSError.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <ignored path="varyans.iws" />
@@ -213,29 +80,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/mvc/controller/Welcome.php">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/controller/Welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Action.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Apps/mvc/controller/Action.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81449634">
-              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="22" />
               <folding>
-                <element signature="e#124#164#0#PHP" expanded="true" />
+                <element signature="e#40#80#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Load.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/System/core/Load.php">
+      <file leaf-file-name="assets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/config/assets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.23077">
+              <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Asset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System/core/Asset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System/core/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-77.26923">
+              <caret line="180" column="40" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="98" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/styles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/content.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -244,11 +161,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/System/core/Model.php">
+      <file leaf-file-name="contact-style-2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.73077">
-              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state vertical-scroll-proportion="1.3699826">
+              <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -270,57 +197,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/System/core/Factory.php" />
-        <option value="$PROJECT_DIR$/System/core/Create.php" />
-        <option value="$PROJECT_DIR$/System/core/Load.php" />
-        <option value="$PROJECT_DIR$/System/core/library/Upload.php" />
-        <option value="$PROJECT_DIR$/System/core/library/Session.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/config/session.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/config/start_use.php" />
-        <option value="$PROJECT_DIR$/System/core/Controller.php" />
-        <option value="$PROJECT_DIR$/System/core/URL.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/Apps/.htaccess" />
-        <option value="$PROJECT_DIR$/Plugins/.htaccess" />
-        <option value="$PROJECT_DIR$/System/.htaccess" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/view/site/login.php" />
-        <option value="$PROJECT_DIR$/public/ayceqart/scripts/app.js" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/view/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/controller/Site.php" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/view/layouts/header.php" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/config/routing.php" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/view/layouts/content.php" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/view/site/index.php" />
-        <option value="$PROJECT_DIR$/Apps/ayceqart/controller/Chat.php" />
-        <option value="$PROJECT_DIR$/System/core/Validator.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/config/generate.php" />
-        <option value="$PROJECT_DIR$/System/core/prototype/Factory.php" />
-        <option value="$PROJECT_DIR$/System/core/factory/MVCFactory.php" />
-        <option value="$PROJECT_DIR$/System/core/helpers/other/Generate.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/view/ayceqart/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/System/VarYanSystem.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/model/User.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/System/Start.php" />
-        <option value="$PROJECT_DIR$/System/core/library/URL.php" />
-        <option value="$PROJECT_DIR$/Plugins/controller/VarYansModel.php" />
-        <option value="$PROJECT_DIR$/Plugins/model/VarYansModel.php" />
-        <option value="$PROJECT_DIR$/Plugins/controller/VarYanController.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/controller/Welcome.php" />
-        <option value="$PROJECT_DIR$/Plugins/controller/HenoController.php" />
-        <option value="$PROJECT_DIR$/Plugins/model/HenoModel.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/config/route_types.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/config/config.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/config/upload.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/model/Later.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/config/database.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/view/welcome/pages/index.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/blog-style-3.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-3.js" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/blog-post.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/blog-style-4.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/index-async.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-async.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-flex.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/index-flex.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-nivo.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/index-nivo.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-style-5.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-5.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-style-6.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-6.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-basic-1.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-basic-1.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-info.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-info-2.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info-2.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-1.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-1.js" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-2.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-2.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-3.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3.js" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3-alternate.css" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3-alternate.js" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-4.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-3-alternate.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-4.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-5.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-5.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/sidebar-left.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-left.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/sidebar-right.php" />
+        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-right.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/templates/navbar.php" />
         <option value="$PROJECT_DIR$/System/core/Database.php" />
-        <option value="$PROJECT_DIR$/System/core/Model.php" />
-        <option value="$PROJECT_DIR$/Apps/mvc/controller/Action.php" />
-        <option value="$PROJECT_DIR$/System/core/Request.php" />
+        <option value="$PROJECT_DIR$/System/Start.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/templates/styles.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/config/assets.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/System/core/Controller.php" />
+        <option value="$PROJECT_DIR$/System/core/Asset.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/controller/Welcome.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php" />
       </list>
     </option>
   </component>
@@ -334,10 +261,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1298" />
-    <option name="height" value="1002" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -364,6 +291,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -379,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
+              <option name="myItemId" value="namecpaseSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,29 +317,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
+              <option name="myItemId" value="namecpaseSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,45 +331,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
+              <option name="myItemId" value="namecpaseSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="System" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="enzum_assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,7 +353,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enzum_assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="varyans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="namecpaseSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -483,7 +385,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
+              <option name="myItemId" value="namecpaseSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -491,7 +393,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="enzum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,7 +411,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
+              <option name="myItemId" value="namecpaseSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -509,42 +419,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
+              <option name="myItemId" value="enzum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="varyans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enzum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="varyans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enzum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="varyans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enzum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ng-ayceqart/index.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum\view" />
+      <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets\images" />
+      <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum\view\welcome\pages" />
+      <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets" />
+      <recent name="C:\xampp\htdocs\varyans\Plugins\model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets\js\site" />
+      <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum" />
       <recent name="C:\xampp\htdocs\varyans\public\assets" />
       <recent name="C:\xampp\htdocs\varyans\Apps\ayceqart\view\layouts" />
       <recent name="C:\xampp\htdocs\varyans\Apps\ayceqart\view\site" />
-      <recent name="C:\xampp\htdocs\varyans\template\ayceqart" />
-      <recent name="C:\xampp\htdocs\varyans\Apps\ayceqart" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\varyans\Plugins\model" />
-      <recent name="C:\xampp\htdocs\varyans\public\ayceqart\plugins\uniform" />
-      <recent name="C:\xampp\htdocs\varyans\public" />
-      <recent name="C:\xampp\htdocs\varyans\System\core\library" />
-      <recent name="C:\xampp\htdocs\namecpaseSystem\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -598,16 +589,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1298" height="1002" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19063005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37229437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3218391" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32142857" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -619,7 +611,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37229437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -642,402 +633,340 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/assets/bootstrap/js/npm.js">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng-ayceqart/server/system/helpers/url_helper.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52731895">
-          <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+        <state vertical-scroll-proportion="-0.8172414">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <caret line="142" column="94" selection-start-line="142" selection-start-column="94" selection-end-line="142" selection-end-column="94" />
+          <caret line="154" column="94" selection-start-line="154" selection-start-column="94" selection-end-line="154" selection-end-column="94" />
+          <caret line="166" column="94" selection-start-line="166" selection-start-column="94" selection-end-line="166" selection-end-column="94" />
+          <caret line="180" column="94" selection-start-line="180" selection-start-column="94" selection-end-line="180" selection-end-column="94" />
+          <caret line="192" column="94" selection-start-line="192" selection-start-column="94" selection-end-line="192" selection-end-column="94" />
+          <caret line="204" column="94" selection-start-line="204" selection-start-column="94" selection-end-line="204" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng-ayceqart/server/system/core/URI.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3329098">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.49330357">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng-ayceqart/server/system/core/CodeIgniter.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-async.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.375">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ng-ayceqart/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3762255">
-          <caret line="221" column="19" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/prototype/Validator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54892">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.49330357">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
           <folding>
-            <element signature="e#1039#3456#0#PHP" expanded="false" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/helpers/database/Validator.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-async.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14583333">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="426" column="18" selection-start-line="426" selection-start-column="18" selection-end-line="426" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/Validator.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-flex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35416666">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/helpers/other/DataTo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/library/Upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9375">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/factory/MVCFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18796068">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/prototype/Factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25061426">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/helpers/other/Generate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083538085">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/generate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22972973">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.36049107">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="false" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-flex.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16707617">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="394" column="18" selection-start-line="394" selection-start-column="18" selection-end-line="394" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/content.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-nivo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-29.538462">
+          <caret line="396" column="18" selection-start-line="396" selection-start-column="18" selection-end-line="396" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/header.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-nivo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75184274">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.77790177">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/model/User.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-style-5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96068794">
-          <caret line="46" column="132" selection-start-line="46" selection-start-column="132" selection-end-line="46" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/Start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7702703">
-          <caret line="142" column="1" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33415234">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12142857">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81449634">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.2845982">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding>
-            <element signature="e#596#1337#0#PHP" expanded="false" />
-            <element signature="e#1452#2134#0#PHP" expanded="false" />
-            <element signature="e#2226#2745#0#PHP" expanded="false" />
-            <element signature="e#2825#3100#0#PHP" expanded="false" />
-            <element signature="e#3184#3380#0#PHP" expanded="false" />
-            <element signature="e#3614#4004#0#PHP" expanded="false" />
-            <element signature="e#4114#4560#0#PHP" expanded="false" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/VarYanSystem.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-style-5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18550369">
-          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="342" column="19" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-style-6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73995537">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
           <folding>
-            <element signature="e#1775#2755#0#PHP" expanded="false" />
-            <element signature="e#2797#3747#0#PHP" expanded="false" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/library/URL.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-style-6.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8771499">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="228" column="14" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plugins/controller/VarYanController.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-basic-1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16707617">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plugins/model/HenoModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20884521">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plugins/controller/HenoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16707617">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25061426">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/route_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10442261">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/routing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083538085">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/start_use.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/footer.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-basic-1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5012285">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/elevator.js">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/upload.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27149877">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plugins/chat/ChatUser.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-info-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.485258">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2627824">
+          <caret line="13" column="88" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plugins/chat/Chatter.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info-2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2137592">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/column_valid_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9398034">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25061426">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/controller/Welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plugins/model/VarYanModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20884521">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/helpers/database/Queries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33248407">
-          <caret line="347" column="37" selection-start-line="347" selection-start-column="34" selection-end-line="347" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
           <folding>
-            <marker date="1450624466359" expanded="true" signature="1457:1471" placeholder="SELECT * FRO... ${$this-&gt;getTableName()}" />
-            <marker date="1450624466359" expanded="true" signature="2129:2141" placeholder="INSERT INTO ${$this-&gt;getTableName()}... " />
-            <marker date="1450624466359" expanded="true" signature="4538:4550" placeholder="DELETE FROM " />
-            <marker date="1450624466359" expanded="true" signature="9832:9886" placeholder="CREATE TABLE... IF" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/model/Later.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54299754">
-          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/Database.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1670761">
-          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3252873">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/view/welcome/pages/index.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22727273">
-          <caret line="997" column="107" selection-start-line="997" selection-start-column="107" selection-end-line="997" selection-end-column="107" />
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3-alternate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60714287">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/Model.php">
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.73077">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22235434">
+          <caret line="11" column="88" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="88" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-3-alternate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89885056">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9896551">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6261161">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/portfolio-standard-5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8827586">
+          <caret line="195" column="18" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-left.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.265625">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/sidebar-left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89885056">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-right.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2845982">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/sidebar-right.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.3735633">
+          <caret line="275" column="18" selection-start-line="275" selection-start-column="18" selection-end-line="275" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5454545">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2712053">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1451292056006" expanded="true" signature="4676:4693" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,28 +978,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/Request.php">
+    <entry file="file://$PROJECT_DIR$/System/Start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85503685">
-          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.56666666">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/core/helpers/database/Queries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4655173">
+          <caret line="116" column="35" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
           <folding>
-            <element signature="e#244#620#0#PHP" expanded="false" />
-            <element signature="e#734#1106#0#PHP" expanded="false" />
-            <element signature="e#1220#1604#0#PHP" expanded="false" />
-            <element signature="e#1668#2012#0#PHP" expanded="false" />
-            <element signature="e#2110#2572#0#PHP" expanded="false" />
-            <element signature="e#2667#2815#0#PHP" expanded="false" />
+            <marker date="1450675674624" expanded="true" signature="1457:1471" placeholder="SELECT * FRO... ${$this-&gt;getTableName()}" />
+            <marker date="1450675674624" expanded="true" signature="2129:2141" placeholder="INSERT INTO ${$this-&gt;getTableName()}... " />
+            <marker date="1450675674624" expanded="true" signature="4538:4550" placeholder="DELETE FROM " />
+            <marker date="1450675674624" expanded="true" signature="9832:9886" placeholder="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/mvc/controller/Action.php">
+    <entry file="file://$PROJECT_DIR$/System/core/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81449634">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        <state vertical-scroll-proportion="33.346153">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.23077">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/controller/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="22" />
           <folding>
-            <element signature="e#124#164#0#PHP" expanded="true" />
+            <element signature="e#40#80#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/config/assets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/core/Asset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-77.26923">
+          <caret line="180" column="40" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="98" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3699826">
+          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -90,7 +90,9 @@ class Database
             $this->db->setAttribute(\PDO::ATTR_ERRMODE,\PDO::ERRMODE_EXCEPTION);
             $this->db->exec("SET NAMES ".$this->charset);
         }catch (\PDOException $ex){
-            echo $ex->getMessage();
+            throw new Error('canNotConnectToDB',array(
+                'error'=>$ex->getMessage()
+            ));
         }
     }
     /**

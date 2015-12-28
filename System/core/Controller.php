@@ -11,6 +11,14 @@ namespace System\Core;
 abstract class Controller
 {
     /**
+     * @var array $styleFiles
+     * */
+    private $styleFiles = array();
+    /**
+     * @var array $scriptFiles
+     * */
+    private $scriptFiles = array();
+    /**
      * @var Model class object $model
      * */
     protected $model = null;
@@ -50,6 +58,8 @@ abstract class Controller
 
         if($useSameNameModel)
             $this->useModel();
+
+        $this->beforeRender();
     }
     /**
      * renderView
@@ -59,6 +69,9 @@ abstract class Controller
      * */
     protected function renderView($file,$args = null)
     {
+        $args['styleFiles'] = $this->styleFiles;
+        $args['scriptFiles'] = $this->scriptFiles;
+
         $viewDefault = APPS.ACTIVE.'view/'.$this->currentController.'/'.$file.'.php';
         $viewCustom  = APPS.ACTIVE.'view/'.$file.'.php';
         $currentView = file_exists($viewCustom) ? $viewCustom : $viewDefault;
@@ -159,5 +172,18 @@ abstract class Controller
         }else{
             throw  new Error('libraryRequired');
         }
+    }
+    /**
+     * beforeRender method
+     * */
+    private function beforeRender()
+    {
+        $assets = load_config('assets');
+
+        Asset::add('css',$assets['css']);
+        Asset::add('js',$assets['js']);
+
+        $this->styleFiles   = Asset::getAssets('css');
+        $this->scriptFiles  = Asset::getAssets('js');
     }
 }

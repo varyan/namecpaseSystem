@@ -16,12 +16,12 @@ $system_path    = "../System";
 $plugins_path   = "../Plugins";
 $apps_path      = "../Apps";
 
-$template_path  = "assets";
+$template_path  = "enzum_assets";
 
 /**
  * set active app folder name
  * */
-$active_app     = "mvc";
+$active_app     = "enzum";
 
 /**
  * defining FC_FILE and FC_PATH constants

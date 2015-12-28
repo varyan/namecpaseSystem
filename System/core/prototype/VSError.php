@@ -26,15 +26,16 @@ abstract class VSError extends \Exception
      * undefinedError method
      * @param array $args
      * */
-    private function undefinedError($args){
+    private function undefinedError($args)
+    {
         debug_print($args,true);
-        $args['message'] = 'Undefined error';
     }
     /**
      * undefinedRout method
      * @param array $args
      * */
-    private function undefinedRout($args){
+    private function undefinedRout($args)
+    {
         $args['message'] = 'Undefined rout';
         debug_print($args,true);
     }
@@ -42,7 +43,8 @@ abstract class VSError extends \Exception
      * invalidRout method
      * @param array $args
      * */
-    private function invalidRout($args){
+    private function invalidRout($args)
+    {
         $args['message'] = "The url ".(intval($args['paramPosition'])+1).' parameter has invalid rout type';
         debug_print($args,true);
     }
@@ -50,7 +52,8 @@ abstract class VSError extends \Exception
      * viewNotFound method
      * @param array $args
      * */
-    private function viewNotFound($args){
+    private function viewNotFound($args)
+    {
         $args['message'] = array_pop(explode('/',str_replace('.php','',$args['viewName']))).' view called by '.ucfirst($args['controllerName']).' controller not found';
         debug_print($args,true);
     }
@@ -58,14 +61,16 @@ abstract class VSError extends \Exception
      * modelNotFound method
      * @param array $args
      * */
-    private function modelNotFound($args){
+    private function modelNotFound($args)
+    {
         $args['message'] = array_pop(explode('\\',$args['modelName'])).' model called by '.ucfirst($args['controllerName']).' controller not found';
         debug_print($args,true);
     }
     /**
      *
      * */
-    private function methodDoNotHaveParam($args){
+    private function methodDoNotHaveParam($args)
+    {
         $args['message'] = array_pop(explode('\\',$args['className']))." controller ".$args['methodName'].' method do not required any parameter';
         debug_print($args,true);
     }
