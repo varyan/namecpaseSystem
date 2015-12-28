@@ -9,6 +9,7 @@
 namespace System;
 
 use System\Core\Error;
+use System\Core\Helpers\Other\Generate;
 use System\Core\Routing;
 
 class VarYanSystem{
@@ -115,7 +116,9 @@ class VarYanSystem{
                 $this->parameters = array_values($urlParts);
             }
 
-        }else{return false;}
+        }else{
+            return false;
+        }
 
         return true;
     }
@@ -124,7 +127,9 @@ class VarYanSystem{
      * */
     private function cleanURL()
     {
-        $this->url = strpos(FC_PATH,'index.php') ? substr(FC_PATH,11) : ltrim(FC_PATH,'/');
+        $query = explode('/',$_SERVER['QUERY_STRING']);
+        unset($query[0]);
+        $this->url = implode('/',$query);
         $this->prefixDetect();
         return stripcslashes(trim($this->url));
     }

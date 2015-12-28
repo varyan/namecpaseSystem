@@ -982,25 +982,25 @@
 						</div>
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<form role="form" method="post" action="<?=\System\Core\URL::base('welcome/upload')?>" id="footer-form" enctype="multipart/form-data">
+								<form role="form" method="post" action="<?=\System\Core\Library\URL::base('action/later')?>" id="contact_form" enctype="multipart/form-data">
 									<div class="form-group has-feedback">
-										<label class="sr-only" for="name2">Name</label>
-										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2">
+										<label class="sr-only" for="full_name">Full Name</label>
+										<input type="text" class="form-control" id="full_name" placeholder="Full name" name="full_name">
 										<i class="fa fa-user form-control-feedback"></i>
 									</div>
 									<div class="form-group has-feedback">
-										<label class="sr-only" for="email2">Email address</label>
-										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2">
+										<label class="sr-only" for="email">Email address</label>
+										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
 										<i class="fa fa-envelope form-control-feedback"></i>
 									</div>
 									<div class="form-group has-feedback">
-										<label class="sr-only" for="image">File</label>
-										<input type="file" class="form-control" id="image" name="image[]" multiple>
-										<i class="fa fa-image form-control-feedback"></i>
+										<label class="sr-only" for="subject">Subject</label>
+										<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+										<i class="fa fa-file form-control-feedback"></i>
 									</div>
 									<div class="form-group has-feedback">
-										<label class="sr-only" for="message2">Message</label>
-										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2"></textarea>
+										<label class="sr-only" for="message">Message</label>
+										<textarea class="form-control" rows="8" id="message" placeholder="Message" name="message"></textarea>
 										<i class="fa fa-pencil form-control-feedback"></i>
 									</div>
 									<input type="submit" value="Send" class="btn btn-default">

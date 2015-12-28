@@ -1,9 +1,9 @@
 <?php
 
 namespace Apps\MVC\Controller;
-use System\Core\Controller;
+use Plugins\Controller\VarYanController;
 
-class Welcome extends Controller
+class Welcome extends VarYanController
 {
     /**
      * __construct method

@@ -7,10 +7,10 @@
  */
 
 namespace Apps\MVC\Controller;
+use Plugins\Controller\VarYanController;
+use System\Core\Request;
 
-use System\Core\Controller;
-
-class Action extends Controller
+class Action extends VarYanController
 {
     public function __construct()
     {
@@ -28,6 +28,19 @@ class Action extends Controller
         $data['updatedAt'] = date('Y-m-d H:i:s');
 
         $save = $this->model->user->saveData($data,true);
+
+        debug_print($save,true);
+    }
+    /**
+     *
+     * */
+    public function later()
+    {
+        $this->useModel('later');
+        $data = Request::post();
+        $data['ipAddress'] = $_SERVER['REMOTE_ADDR'];
+        $data['createdAt'] = date('Y-m-d H:i:s');
+        $save = $this->model->later->saveData($data,true);
 
         debug_print($save,true);
     }

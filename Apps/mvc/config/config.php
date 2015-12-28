@@ -8,6 +8,7 @@
 
 $config = array(
 
+    'base_url'              =>  'http://localhost/varyans/',
     /*-----FALSE/ARRAY-----*/
     'col_validation'        =>  FALSE,
 
@@ -16,10 +17,4 @@ $config = array(
 
     /*-----REGEX/FALSE-----*/
     'rout_prefix'           =>  FALSE,//'/^[a-zA-Z]{2}+$/',
-
-    /*-----FALSE/ARRAY-----*/
-    'multi_language'        =>  array(
-        'show_in_url'       =>  TRUE,
-        'slug_length'       =>  2
-    )
 );

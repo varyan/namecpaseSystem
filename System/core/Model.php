@@ -48,7 +48,9 @@ abstract class Model
                 $this->db->setTableName($name.'s');
             elseif($this->db->tableExists($name))
                 $this->db->setTableName($name);
-            else throw new Error('tableNotFound',$name);
+            else throw new Error('tableNotFound',array(
+                'error'=>'The table '.$this->db->getTableName().' not found'
+            ));
         }
     }
     /**

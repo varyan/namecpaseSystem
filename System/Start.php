@@ -59,10 +59,12 @@ if(!function_exists('load_config')){
 }
 
 if(!function_exists('load_item')){
-    function load_item($key){
-        $file = APPS.ACTIVE."config/config.php";
+    function load_item($key,$fileName = null){
+        $file = !is_null($fileName) ? APPS.ACTIVE."config/".$fileName.".php" : APPS.ACTIVE."config/config.php";
         if(file_exists($file)){
             require "$file";
+            if(!is_null($fileName))
+                $config = $$fileName;
             if(isset($config[$key])){
                 return $config[$key];
             }else{

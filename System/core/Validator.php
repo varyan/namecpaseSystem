@@ -10,34 +10,26 @@ namespace System\Core;
 
 class Validator extends \System\Core\Prototype\Validator{
     /**
-     * @var array/object $rules
+     * @var array/stdClass $rules
      * */
     private $rules;
     /**
      * setRules method
-     * @param array $validatorArray
+     * @param array $validationArray
      * @return Validator object
      * */
-    public function setRules($validatorArray)
+    public function setRules($validationArray)
     {
         // TODO: Implement setRules() method.
+        $this->rules = $validationArray;
         return $this;
     }
     /**
-     * getRules method
-     * @return array/object
+     *
      * */
     public function getRules()
     {
-        // TODO: Implement setRules() method.
+        // TODO: Implement getRules() method.
         return $this->rules;
-    }
-    /**
-     * getError method
-     * @return array
-     * */
-    public function getError()
-    {
-        // TODO: Implement getError() method.
     }
 }

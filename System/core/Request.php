@@ -17,7 +17,16 @@ class Request
      * */
     public static function post($key = null)
     {
-        return !is_null($key) ? (isset($_POST[$key]) ? escapeshellarg(htmlspecialchars($_POST[$key])) : null) : $_POST;
+        if(!is_null($key)){
+            return isset($_POST[$key]) ? self::sanitize($_POST[$key]) : null;
+        }else{
+            $data = array();
+            foreach($_POST as $item => $value){
+                $data[$item] = self::sanitize($value);
+            }
+            return $data;
+        }
+        return null;
     }
     /**
      * get method
@@ -26,7 +35,16 @@ class Request
      * */
     public static function get($key = null)
     {
-        return !is_null($key) ? (isset($_GET[$key]) ? escapeshellarg(htmlspecialchars($_GET[$key])) : null) : $_GET;
+        if(!is_null($key)){
+            return isset($_GET[$key]) ? self::sanitize($_GET[$key]) : null;
+        }else{
+            $data = array();
+            foreach($_GET as $item => $value){
+                $data[$item] = self::sanitize($value);
+            }
+            return $data;
+        }
+        return null;
     }
     /**
      * req method
@@ -35,7 +53,16 @@ class Request
      * */
     public static function req($key = null)
     {
-        return !is_null($key) ? (isset($_REQUEST[$key]) ? escapeshellarg(htmlspecialchars($_REQUEST[$key])) : null) : $_REQUEST;
+        if(!is_null($key)){
+            return isset($_REQUEST[$key]) ? self::sanitize($_REQUEST[$key]) : null;
+        }else{
+            $data = array();
+            foreach($_REQUEST as $item => $value){
+                $data[$item] = self::sanitize($value);
+            }
+            return $data;
+        }
+        return null;
     }
     /**
      * method
@@ -46,5 +73,31 @@ class Request
         return (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')
             ? $_SERVER['HTTP_X_REQUESTED_WITH']
             : (isset($_SERVER['REQUEST_METHOD']) && !empty($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : null);
+    }
+    /**
+     * cleanInput method
+     * @param string $input
+     * @return string
+     * */
+    private static function cleanInput($input) {
+
+        $search = array(
+            '@<script[^>]*?>.*?</script>@si',   // Strip out javascript
+            '@<[\/\!]*?[^<>]*?>@si',            // Strip out HTML tags
+            '@<style[^>]*?>.*?</style>@siU',    // Strip style tags properly
+            '@<![\s\S]*?--[ \t\n\r]*>@'         // Strip multi-line comments
+        );
+
+        $output = preg_replace($search, '', $input);
+        return $output;
+    }
+    /**
+     * sanitize method
+     * @param mixed $input
+     * @return string
+     * */
+    private static function sanitize($input) {
+        $input  = self::cleanInput(stripcslashes(htmlspecialchars($input)));
+        return $input;
     }
 }

@@ -7,14 +7,16 @@
  */
 
 $upload = array(
+    //set allowed file types
     'allowedTypes'  =>array('png','jpg','jpeg','gif'),
-    //set maxHeight by pixel default 768px
-    'maxHeight'     =>768,
     //set maxWidth by pixel default 1024px
     'maxWidth'      =>1024,
+    //set maxHeight by pixel default 768px
+    'maxHeight'     =>768,
     //set maxSize by mb as default 5mb
     'maxSize'       =>5,
     //set path for uploading images
     'path'          =>ROOT.TEAM.'images/uploads/',
+    //generate random name of image
     'randomName'    =>TRUE
 );

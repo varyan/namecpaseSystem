@@ -22,6 +22,6 @@
 <script type="text/javascript" src="<?=TEMPLATE?>js/template.js"></script>
 
 <!-- Custom Scripts -->
-<script type="text/javascript" src="<?=TEMPLATE?>js/custom.js"></script>
+<script type="text/javascript" src="<?=TEMPLATE?>js/elevator.js"></script>
 </body>
 </html>
