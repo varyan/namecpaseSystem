@@ -75,10 +75,10 @@
 </div>
 </div>
 </div>
+<?php $this->renderView('templates/scripts'); ?>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--><script type="text/javascript" language="javascript" src="<?=TEMPLATE?>js/jquery-1-8-2.js"></script>
-<?php $this->renderView('templates/scripts'); ?>
+<![endif]-->
 </body>
 
 </html>

@@ -14,13 +14,13 @@ $assets = array(
         'colorpicker'),
     'js'    =>array(
         'jquery-1-8-2',
+        'default',
         'jquery.easing',
         'jquery.carousel',
-        'jquery.color.animation',
-        'jquery.prettyPhoto',
-        'default',
         'jquery.onebyone.min',
-        'jquery.touchwipe.min',
+        'jquery.color.animation',
+        'jquery.isotope.min',
+        'jquery.prettyPhoto',
         'colorpicker',
     ),
 );

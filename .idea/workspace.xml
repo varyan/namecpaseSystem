@@ -2,61 +2,706 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f011aef7-bdf5-4252-8db5-afd27ffe7036" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/assets.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/column_valid_types.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/generate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/route_types.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/routing.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/start_use.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/config/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/controller/Action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/controller/Welcome.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/navbar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/styles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/ReadMe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/controller/ArmanController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/controller/DavitController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/model/ArmanModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/model/DavitModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/System/core/Asset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/blog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/contact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-flex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-nivo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-basic-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3-alternate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-left.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-right.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/jquery.easing.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/column_valid_types.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/generate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/route_types.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/routing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/start_use.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/config/upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/controller/Action.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/controller/Welcome.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/model/Later.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/model/Menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/model/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/ReadMe.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/layouts/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/pages/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apps/mvc/view/welcome/pages/register.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/animations.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/bg-image-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/bg-image-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/client-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/client-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/client-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/client-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/client-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/client-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/icon-vs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/portfolio-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/section-image-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/testimonial-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/testimonial-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/testimonial-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/elevator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/isotope/isotope.pkgd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/isotope/isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/jquery-1.11.1.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/jquery.appear.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/jquery.backstretch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/plugins/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/ajax/ajax_default.js" afterPath="$PROJECT_DIR$/public/assets/ajax/ajax_default.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/ajax/email_conf.js" afterPath="$PROJECT_DIR$/public/assets/ajax/email_conf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/ajax/email_conf.php" afterPath="$PROJECT_DIR$/public/assets/ajax/email_conf.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/animate.min.css" afterPath="$PROJECT_DIR$/public/assets/css/animate.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/asyncslider_body.css" afterPath="$PROJECT_DIR$/public/assets/css/asyncslider_body.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/base.css" afterPath="$PROJECT_DIR$/public/assets/css/base.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/child.css" afterPath="$PROJECT_DIR$/public/assets/css/child.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/colorpicker.css" afterPath="$PROJECT_DIR$/public/assets/css/colorpicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/flexslider.css" afterPath="$PROJECT_DIR$/public/assets/css/flexslider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/ie.css" afterPath="$PROJECT_DIR$/public/assets/css/ie.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/jquery.onebyone.css" afterPath="$PROJECT_DIR$/public/assets/css/jquery.onebyone.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/layout.css" afterPath="$PROJECT_DIR$/public/assets/css/layout.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/nivo-slider.css" afterPath="$PROJECT_DIR$/public/assets/css/nivo-slider.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/prettyPhoto.css" afterPath="$PROJECT_DIR$/public/assets/css/prettyPhoto.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/css/skeleton.css" afterPath="$PROJECT_DIR$/public/assets/css/skeleton.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/about-arch.jpg" afterPath="$PROJECT_DIR$/public/assets/images/about-arch.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/async/assets/bullets.png" afterPath="$PROJECT_DIR$/public/assets/images/async/assets/bullets.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/async/fallback.png" afterPath="$PROJECT_DIR$/public/assets/images/async/fallback.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/async/readme.txt" afterPath="$PROJECT_DIR$/public/assets/images/async/readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/blog-arch.jpg" afterPath="$PROJECT_DIR$/public/assets/images/blog-arch.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/blog-mountain.jpg" afterPath="$PROJECT_DIR$/public/assets/images/blog-mountain.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/blog-train.jpg" afterPath="$PROJECT_DIR$/public/assets/images/blog-train.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/button-slider.png" afterPath="$PROJECT_DIR$/public/assets/images/button-slider.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/accordion-arrow.png" afterPath="$PROJECT_DIR$/public/assets/images/design/accordion-arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/accordion-gradient.png" afterPath="$PROJECT_DIR$/public/assets/images/design/accordion-gradient.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/active-indicator.png" afterPath="$PROJECT_DIR$/public/assets/images/design/active-indicator.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/arrows.png" afterPath="$PROJECT_DIR$/public/assets/images/design/arrows.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/bg-coming-button.png" afterPath="$PROJECT_DIR$/public/assets/images/design/bg-coming-button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/body-320.png" afterPath="$PROJECT_DIR$/public/assets/images/design/body-320.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/body-480.png" afterPath="$PROJECT_DIR$/public/assets/images/design/body-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/body-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/body-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/body-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/body-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/bodyTop-320.png" afterPath="$PROJECT_DIR$/public/assets/images/design/bodyTop-320.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/bodyTop-480.png" afterPath="$PROJECT_DIR$/public/assets/images/design/bodyTop-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/bodyTop-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/bodyTop-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/bodyTop-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/bodyTop-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/button-body.png" afterPath="$PROJECT_DIR$/public/assets/images/design/button-body.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/button-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/button-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-cool-blue-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-cool-blue-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-cool-blue.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-cool-blue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-denim-blue-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-denim-blue-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-denim-blue.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-denim-blue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-firebrick-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-firebrick-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-firebrick.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-firebrick.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-grass-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-grass-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-grass.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-grass.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-green-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-green-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-green.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-green.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-orange-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-orange-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-orange.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-orange.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-pink-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-pink-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-pink.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-pink.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-purple-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-purple-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-purple.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-purple.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-red-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-red-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-red.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-red.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-silver-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-silver-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-silver.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-silver.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-teal-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-teal-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-teal.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-teal.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-violet-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-violet-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/buttons/cbutton-violet.png" afterPath="$PROJECT_DIR$/public/assets/images/design/buttons/cbutton-violet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/callout-button-cut.png" afterPath="$PROJECT_DIR$/public/assets/images/design/callout-button-cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/callout-button.png" afterPath="$PROJECT_DIR$/public/assets/images/design/callout-button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/callout.png" afterPath="$PROJECT_DIR$/public/assets/images/design/callout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/blank.gif" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/blank.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_background.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_hex.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_hex.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_hsb_b.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_hsb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_hsb_h.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_hsb_h.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_hsb_s.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_hsb_s.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_indic.gif" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_indic.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_overlay.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_overlay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_rgb_b.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_rgb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_rgb_g.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_rgb_g.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_rgb_r.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_rgb_r.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_select.gif" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_select.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/colorpicker_submit.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/colorpicker_submit.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_background.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_hex.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_hex.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_hsb_b.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_hsb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_hsb_h.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_hsb_h.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_hsb_s.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_hsb_s.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_indic.gif" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_indic.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_rgb_b.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_rgb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_rgb_g.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_rgb_g.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_rgb_r.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_rgb_r.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/custom_submit.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/custom_submit.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/select.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/select.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/select2.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/select2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/colorpicker/slider.png" afterPath="$PROJECT_DIR$/public/assets/images/design/colorpicker/slider.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/diag-hr.png" afterPath="$PROJECT_DIR$/public/assets/images/design/diag-hr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/buoy-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/buoy-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/buoy.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/buoy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/cart-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/cart-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/cart.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/cart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/client-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/client-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/client.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/client.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/diag-pattern.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/diag-pattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/gear-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/gear-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/gear.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/gear.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/globe-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/globe-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/globe.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/globe.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/iphone-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/iphone-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/iphone.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/lab-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/lab-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/lab.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/lab.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/pushpin-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/pushpin-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/pushpin.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/pushpin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/tags-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/tags-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/tags.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/tags.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/tools-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/tools-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/tools.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/tools.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/trophy-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/trophy-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/trophy.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/trophy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/truck-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/truck-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/truck.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/truck.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/tv-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/tv-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/tv.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/tv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/umbrella-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/umbrella-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/umbrella.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/umbrella.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/virus-trans.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/virus-trans.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/drops/virus.png" afterPath="$PROJECT_DIR$/public/assets/images/design/drops/virus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-2-patch-320.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-2-patch-320.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-2-patch-460.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-2-patch-460.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-2-patch-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-2-patch-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-2-patch.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-2-patch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-background-stitch.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-background-stitch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-bg-320.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-bg-320.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-bg-480.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-bg-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-bg-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-bg-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-bg-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-bg-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-ct-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-ct-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-ct.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-ct.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-divider.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-divider.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-grain-light.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-grain-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-grain.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-grain.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-patch-320.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-patch-320.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-patch-480.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-patch-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-patch-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-patch-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-patch-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-patch-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-style2-stitch.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-style2-stitch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-top-stich.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-top-stich.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/footer-top-stitch-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/footer-top-stitch-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/frb-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/frb-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/full-divide.png" afterPath="$PROJECT_DIR$/public/assets/images/design/full-divide.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/header-dividers.png" afterPath="$PROJECT_DIR$/public/assets/images/design/header-dividers.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/header-title-rg.png" afterPath="$PROJECT_DIR$/public/assets/images/design/header-title-rg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/icon-link.png" afterPath="$PROJECT_DIR$/public/assets/images/design/icon-link.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/icon-zoom.png" afterPath="$PROJECT_DIR$/public/assets/images/design/icon-zoom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/image-overlay-pattern.png" afterPath="$PROJECT_DIR$/public/assets/images/design/image-overlay-pattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/img-meta.png" afterPath="$PROJECT_DIR$/public/assets/images/design/img-meta.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/img-thirds-shadow-large.png" afterPath="$PROJECT_DIR$/public/assets/images/design/img-thirds-shadow-large.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/img-thirds-shadow-small.png" afterPath="$PROJECT_DIR$/public/assets/images/design/img-thirds-shadow-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/img-thirds-shadow.png" afterPath="$PROJECT_DIR$/public/assets/images/design/img-thirds-shadow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-basic.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-basic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-blocked.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-blocked.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-bullet1.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-bullet1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-check1.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-check1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-kill1.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-kill1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-kill2.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-kill2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-point1.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-point1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-point2.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-point2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/list-style-point3.png" afterPath="$PROJECT_DIR$/public/assets/images/design/list-style-point3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/map-shadow.png" afterPath="$PROJECT_DIR$/public/assets/images/design/map-shadow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/menu-btm.png" afterPath="$PROJECT_DIR$/public/assets/images/design/menu-btm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/menu-tp.png" afterPath="$PROJECT_DIR$/public/assets/images/design/menu-tp.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-480.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-active.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-active.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-repeat.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-repeat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-shadow-320.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-shadow-320.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-shadow-480.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-shadow-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-shadow-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-shadow-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/nav-shadow-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/nav-shadow-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/noise.png" afterPath="$PROJECT_DIR$/public/assets/images/design/noise.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/preloader.gif" afterPath="$PROJECT_DIR$/public/assets/images/design/preloader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/prettyPhoto/default_thumb.png" afterPath="$PROJECT_DIR$/public/assets/images/design/prettyPhoto/default_thumb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/prettyPhoto/loader.gif" afterPath="$PROJECT_DIR$/public/assets/images/design/prettyPhoto/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/prettyPhoto/sprite.png" afterPath="$PROJECT_DIR$/public/assets/images/design/prettyPhoto/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/prettyPhoto/sprite_next.png" afterPath="$PROJECT_DIR$/public/assets/images/design/prettyPhoto/sprite_next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/prettyPhoto/sprite_prev.png" afterPath="$PROJECT_DIR$/public/assets/images/design/prettyPhoto/sprite_prev.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/prettyPhoto/sprite_x.png" afterPath="$PROJECT_DIR$/public/assets/images/design/prettyPhoto/sprite_x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/prettyPhoto/sprite_y.png" afterPath="$PROJECT_DIR$/public/assets/images/design/prettyPhoto/sprite_y.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/pricing-table.png" afterPath="$PROJECT_DIR$/public/assets/images/design/pricing-table.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/quotes.png" afterPath="$PROJECT_DIR$/public/assets/images/design/quotes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/rb-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/rb-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/search-icon.png" afterPath="$PROJECT_DIR$/public/assets/images/design/search-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/search.png" afterPath="$PROJECT_DIR$/public/assets/images/design/search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/shadow-full-body-blog.png" afterPath="$PROJECT_DIR$/public/assets/images/design/shadow-full-body-blog.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/shadow-portfolio-four.png" afterPath="$PROJECT_DIR$/public/assets/images/design/shadow-portfolio-four.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/shadow-portfolio-three-dark.png" afterPath="$PROJECT_DIR$/public/assets/images/design/shadow-portfolio-three-dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/shadow-portfolio-three.png" afterPath="$PROJECT_DIR$/public/assets/images/design/shadow-portfolio-three.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/side-shadows-320.png" afterPath="$PROJECT_DIR$/public/assets/images/design/side-shadows-320.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/side-shadows-480.png" afterPath="$PROJECT_DIR$/public/assets/images/design/side-shadows-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/side-shadows-768.png" afterPath="$PROJECT_DIR$/public/assets/images/design/side-shadows-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/side-shadows-960.png" afterPath="$PROJECT_DIR$/public/assets/images/design/side-shadows-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/slug-crop.png" afterPath="$PROJECT_DIR$/public/assets/images/design/slug-crop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/slug-noise.png" afterPath="$PROJECT_DIR$/public/assets/images/design/slug-noise.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/slug-stitch.png" afterPath="$PROJECT_DIR$/public/assets/images/design/slug-stitch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/ss-top.png" afterPath="$PROJECT_DIR$/public/assets/images/design/ss-top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/submenu-pattern.jpg" afterPath="$PROJECT_DIR$/public/assets/images/design/submenu-pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/testimonial-indicator.png" afterPath="$PROJECT_DIR$/public/assets/images/design/testimonial-indicator.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/testimonial-quote.png" afterPath="$PROJECT_DIR$/public/assets/images/design/testimonial-quote.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/twitter-bird-dark-bgs.png" afterPath="$PROJECT_DIR$/public/assets/images/design/twitter-bird-dark-bgs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/design/twitter-divider.png" afterPath="$PROJECT_DIR$/public/assets/images/design/twitter-divider.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/flex/assets/crop.png" afterPath="$PROJECT_DIR$/public/assets/images/flex/assets/crop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/flex/assets/direction-nav.png" afterPath="$PROJECT_DIR$/public/assets/images/flex/assets/direction-nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/flex/readme.txt" afterPath="$PROJECT_DIR$/public/assets/images/flex/readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/footer-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/footer-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/footer-style2-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/footer-style2-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/activity_monitor.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/activity_monitor.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/activity_monitor_add.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/activity_monitor_add.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/activity_monitor_chart.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/activity_monitor_chart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/activity_monitor_close.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/activity_monitor_close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/activity_monitor_warning.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/activity_monitor_warning.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/add_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/add_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/address_book_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/address_book_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/address_book_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/address_book_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/address_book_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/address_book_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/address_book_search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/address_book_search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/address_book_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/address_book_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_down_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_down_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_down_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_down_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_left_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_left_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_left_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_left_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_right_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_right_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_right_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_right_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_up_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_up_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/arrow_up_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_up_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/basket_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/basket_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/basket_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/basket_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/basket_back_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/basket_back_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/basket_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/basket_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/basket_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/basket_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/basket_go_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/basket_go_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/basket_search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/basket_search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/blue_arrow_down_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/blue_arrow_down_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/blue_arrow_left_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/blue_arrow_left_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/blue_arrow_right_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/blue_arrow_right_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/blue_arrow_up_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/blue_arrow_up_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/book_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/book_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/book_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/book_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/book_bookmarks_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/book_bookmarks_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/book_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/book_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/book_search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/book_search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/book_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/book_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/camera_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/camera_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/camera_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/camera_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/camera_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/camera_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/chart_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/chart_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/chart_flipped_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/chart_flipped_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/chart_flipped_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/chart_flipped_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/check_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/check_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/chrome-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/chrome-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/clock_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/clock_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/close_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/close_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_page_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_page_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_info_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_info_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_page_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_page_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_rss_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_rss_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/comment_user_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/comment_user_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/database_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/database_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/database_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/database_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/database_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/database_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/database_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/database_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/database_page_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/database_page_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/database_search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/database_search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/database_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/database_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/email_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/email_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/email_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/email_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/email_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/email_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/email_forward_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/email_forward_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/email_reply_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/email_reply_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/email_reply_all_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/email_reply_all_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/error_button.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/error_button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/error_button_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/error_button_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/explorer-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/explorer-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/firefox-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/firefox-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/folder_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/folder_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/folder_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/folder_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/folder_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/folder_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/folder_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/folder_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/folder_page_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/folder_page_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/folder_search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/folder_search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/folder_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/folder_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/hammer_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/hammer_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/heart_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/heart_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/heart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/heart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/home_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/home_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/home_back_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/home_back_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/home_go_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/home_go_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/info_button_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/info_button_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/info_button_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/info_button_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/lightbulb_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/lightbulb_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/lightbulb_off_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/lightbulb_off_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/link.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/link.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/lock_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/lock_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/lock_open_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/lock_open_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/netscape-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/netscape-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/newspaper_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/newspaper_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/newspaper_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/newspaper_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/newspaper_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/newspaper_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/newspaper_info_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/newspaper_info_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/newspaper_rss_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/newspaper_rss_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/newspaper_search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/newspaper_search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_blank_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_blank_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_blank_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_blank_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_blank_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_blank_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_blank_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_blank_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_blank_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_blank_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_table_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_table_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_table_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_table_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_table_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_table_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_table_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_table_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_table_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_table_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_text_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_text_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_text_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_text_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_text_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_text_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_text_close_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_text_close_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/page_text_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/page_text_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/pencil_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/pencil_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/phone_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/phone_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/play_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/play_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/rss_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/rss_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/rss_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/rss_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/safari-logo.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/safari-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/save_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/save_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/save_download_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/save_download_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/save_upload_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/save_upload_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/screen_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/screen_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/screen_off_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/screen_off_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/screwdriver_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/screwdriver_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/search_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/search_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/search_button_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/search_button_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/search_button_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/search_button_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/search_button_green_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/search_button_green_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/search_button_green_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/search_button_green_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/search_chart_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/search_chart_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/search_warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/search_warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-deviantart.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-deviantart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-deviantart2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-deviantart2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-dribbble.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-dribbble.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-dribbble2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-dribbble2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-facebook.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-facebook.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-facebook2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-facebook2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-flickr.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-flickr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-flickr2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-flickr2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-forrst.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-forrst.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-forrst2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-forrst2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-friendfeed.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-friendfeed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-friendfeed2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-friendfeed2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-googleplus.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-googleplus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-googleplus2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-googleplus2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-lastfm.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-lastfm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-lastfm2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-lastfm2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-linkedin.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-linkedin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-linkedin2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-linkedin2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-pinterest.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-pinterest.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-pinterest2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-pinterest2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-rss.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-rss2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-rss2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-skype.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-skype.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-skype2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-skype2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-tumblr.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-tumblr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-tumblr2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-tumblr2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-twitter.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-twitter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-twitter2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-twitter2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-vimeo.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-vimeo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/icon-vimeo2.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/icon-vimeo2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-aboutme-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-aboutme-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-aboutme.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-aboutme.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-behance-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-behance-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-behance.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-behance.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-deviantart-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-deviantart-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-deviantart.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-deviantart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-dribbble-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-dribbble-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-dribbble.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-dribbble.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-etsy-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-etsy-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-etsy.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-etsy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-facebook-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-facebook-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-facebook.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-facebook.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-flavors-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-flavors-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-flavors.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-flavors.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-flickr-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-flickr-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-flickr.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-flickr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-forrst-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-forrst-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-forrst.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-forrst.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-friendfeed-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-friendfeed-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-friendfeed.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-friendfeed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-googleplus-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-googleplus-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-googleplus.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-googleplus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-instagram-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-instagram-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-instagram.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-instagram.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-klout-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-klout-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-klout.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-klout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-lastfm-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-lastfm-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-lastfm.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-lastfm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-linkedin-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-linkedin-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-linkedin.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-linkedin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-pinterest-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-pinterest-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-pinterest.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-pinterest.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-rss-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-rss-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-rss.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-skype-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-skype-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-skype.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-skype.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-slideshare-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-slideshare-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-slideshare.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-slideshare.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-twitter-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-twitter-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-twitter.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-twitter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-vimeo-hover.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-vimeo-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/sm_icons/round/icon-vimeo.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/sm_icons/round/icon-vimeo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/star_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/star_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/star_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/star_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/star_off16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/star_off16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/star_off_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/star_off_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/tools_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/tools_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/twitter_16.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/twitter_16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/twitter_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/twitter_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/user_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/user_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/user_add_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/user_add_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/user_blue_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/user_blue_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/user_business_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/user_business_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/users_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/users_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/users_business_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/users_business_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/icons/warning_32.png" afterPath="$PROJECT_DIR$/public/assets/images/icons/warning_32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/imac-2.png" afterPath="$PROJECT_DIR$/public/assets/images/imac-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/ipad.png" afterPath="$PROJECT_DIR$/public/assets/images/ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/iphone-2.png" afterPath="$PROJECT_DIR$/public/assets/images/iphone-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/iphone.png" afterPath="$PROJECT_DIR$/public/assets/images/iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/laptop.png" afterPath="$PROJECT_DIR$/public/assets/images/laptop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/logo.png" afterPath="$PROJECT_DIR$/public/assets/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/logo1.png" afterPath="$PROJECT_DIR$/public/assets/images/logo1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/logo2.png" afterPath="$PROJECT_DIR$/public/assets/images/logo2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/logo3.png" afterPath="$PROJECT_DIR$/public/assets/images/logo3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/logo4.png" afterPath="$PROJECT_DIR$/public/assets/images/logo4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/logoMINI.png" afterPath="$PROJECT_DIR$/public/assets/images/logoMINI.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/monitor.png" afterPath="$PROJECT_DIR$/public/assets/images/monitor.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/agent.jpg" afterPath="$PROJECT_DIR$/public/assets/images/nivo/agent.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/bullets.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/bullets.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop-360.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop-360.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop-480.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop-768.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop-768.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop-bottom-360.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop-bottom-360.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop-bottom-480.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop-bottom-480.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop-bottom-770.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop-bottom-770.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop-bottom-960.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop-bottom-960.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/crop.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/crop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/assets/direction-nav.png" afterPath="$PROJECT_DIR$/public/assets/images/nivo/assets/direction-nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/business-room.jpg" afterPath="$PROJECT_DIR$/public/assets/images/nivo/business-room.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/girl.jpg" afterPath="$PROJECT_DIR$/public/assets/images/nivo/girl.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/nivo/target.jpg" afterPath="$PROJECT_DIR$/public/assets/images/nivo/target.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/onebyone/1_ipad.png" afterPath="$PROJECT_DIR$/public/assets/images/onebyone/1_ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/onebyone/1_iphone.png" afterPath="$PROJECT_DIR$/public/assets/images/onebyone/1_iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/onebyone/1_laptop.png" afterPath="$PROJECT_DIR$/public/assets/images/onebyone/1_laptop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/onebyone/assets/bullets.png" afterPath="$PROJECT_DIR$/public/assets/images/onebyone/assets/bullets.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/onebyone/lens_1.png" afterPath="$PROJECT_DIR$/public/assets/images/onebyone/lens_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/onebyone/lens_2.png" afterPath="$PROJECT_DIR$/public/assets/images/onebyone/lens_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/onebyone/lens_3.png" afterPath="$PROJECT_DIR$/public/assets/images/onebyone/lens_3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/bricks.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/bricks.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/circles.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/circles.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/default-wood.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/default-wood.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/diag-lines-light.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/diag-lines-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/diag-lines.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/diag-lines.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/diagonal-boxes.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/diagonal-boxes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/diagonal-stripes.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/diagonal-stripes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/dots.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/dots.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/drops.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/drops.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/lyonnette.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/lyonnette.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/noise-extra-low.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/noise-extra-low.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/noise-high.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/noise-high.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/noise-low.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/noise-low.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/noise-lowest.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/noise-lowest.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/noise-medium.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/noise-medium.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/paper.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/paper.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/quilt.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/quilt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/retina-wood.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/retina-wood.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/triangles.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/triangles.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/weave.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/weave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/white-wave.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/white-wave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/wide-rectangles.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/wide-rectangles.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/patterns/worn-dots.png" afterPath="$PROJECT_DIR$/public/assets/images/patterns/worn-dots.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-business-model.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-business-model.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-businessman-colleages.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-businessman-colleages.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-dancing-fashion.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-dancing-fashion.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-full-1.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-full-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-full-2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-full-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-glam.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-glam.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-large-cows.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-large-cows.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-large-mnt.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-large-mnt.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-target.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-target.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-woman-executives.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-woman-executives.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-woman-laptop.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-woman-laptop.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/portfolio-woman-streaming.jpg" afterPath="$PROJECT_DIR$/public/assets/images/portfolio-woman-streaming.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/sidebar-beach.jpg" afterPath="$PROJECT_DIR$/public/assets/images/sidebar-beach.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/sidebar-mountain.jpg" afterPath="$PROJECT_DIR$/public/assets/images/sidebar-mountain.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/sidebar-train.jpg" afterPath="$PROJECT_DIR$/public/assets/images/sidebar-train.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/style-4-arch.jpg" afterPath="$PROJECT_DIR$/public/assets/images/style-4-arch.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/style-4-mtn-2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/style-4-mtn-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/style-4-mtn.jpg" afterPath="$PROJECT_DIR$/public/assets/images/style-4-mtn.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/style-4-speech.jpg" afterPath="$PROJECT_DIR$/public/assets/images/style-4-speech.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/team-pic-1.jpg" afterPath="$PROJECT_DIR$/public/assets/images/team-pic-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/testimonial.jpg" afterPath="$PROJECT_DIR$/public/assets/images/testimonial.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/thirds-business-model.jpg" afterPath="$PROJECT_DIR$/public/assets/images/thirds-business-model.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/thirds-woman-executives.jpg" afterPath="$PROJECT_DIR$/public/assets/images/thirds-woman-executives.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/thirds-woman-laptop.jpg" afterPath="$PROJECT_DIR$/public/assets/images/thirds-woman-laptop.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/unknown.jpg" afterPath="$PROJECT_DIR$/public/assets/images/unknown.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/after-storm.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/after-storm.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/arch.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/arch.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/beachstorm.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/beachstorm.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/benchnap.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/benchnap.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/bridge.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/bridge.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/buildings.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/buildings.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/business-class.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/business-class.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/business-class2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/business-class2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/business-model.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/business-model.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/car.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/car.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/cows.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/cows.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/farris-wheel.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/farris-wheel.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/japan-city.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/japan-city.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/london.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/london.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/mountain.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/mountain.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/person-speech-1.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/person-speech-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/person-speech-2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/person-speech-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/podium-speech.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/podium-speech.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/road-neon.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/road-neon.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/shore.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/shore.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/sky-view.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/sky-view.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/subway.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/subway.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/train.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/train.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/woman-executives.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/woman-executives.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/images/untouched/woman-laptop.jpg" afterPath="$PROJECT_DIR$/public/assets/images/untouched/woman-laptop.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/colorpicker.js" afterPath="$PROJECT_DIR$/public/assets/js/colorpicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/default.js" afterPath="$PROJECT_DIR$/public/assets/js/default.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery-1-8-2.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery-1-8-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.asyncslider.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.asyncslider.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.carousel.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.carousel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.color.animation.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.color.animation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.countdown.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.countdown.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.flexslider-min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.flexslider-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.isotope.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.isotope.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.nivo.slider.pack.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.nivo.slider.pack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.onebyone.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.onebyone.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.onebyone.uncompressed.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.onebyone.uncompressed.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.prettyPhoto.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.prettyPhoto.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/jquery.touchwipe.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.touchwipe.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-post.js" afterPath="$PROJECT_DIR$/public/assets/js/site/blog-post.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-2.js" afterPath="$PROJECT_DIR$/public/assets/js/site/blog-style-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-3.js" afterPath="$PROJECT_DIR$/public/assets/js/site/blog-style-3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-4.js" afterPath="$PROJECT_DIR$/public/assets/js/site/blog-style-4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/blog.js" afterPath="$PROJECT_DIR$/public/assets/js/site/blog.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/contact.js" afterPath="$PROJECT_DIR$/public/assets/js/site/contact.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/index-async.js" afterPath="$PROJECT_DIR$/public/assets/js/site/index-async.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/index-flex.js" afterPath="$PROJECT_DIR$/public/assets/js/site/index-flex.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/index-nivo.js" afterPath="$PROJECT_DIR$/public/assets/js/site/index-nivo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-5.js" afterPath="$PROJECT_DIR$/public/assets/js/site/index-style-5.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/index-style-6.js" afterPath="$PROJECT_DIR$/public/assets/js/site/index-style-6.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/index.js" afterPath="$PROJECT_DIR$/public/assets/js/site/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-basic-1.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-basic-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info-2.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-info-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-info.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-1.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-standard-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-2.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-standard-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3-alternate.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-standard-3-alternate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-standard-3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-4.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-standard-4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-5.js" afterPath="$PROJECT_DIR$/public/assets/js/site/portfolio-standard-5.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-left.js" afterPath="$PROJECT_DIR$/public/assets/js/site/sidebar-left.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-right.js" afterPath="$PROJECT_DIR$/public/assets/js/site/sidebar-right.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/mvc/config/database.php" afterPath="$PROJECT_DIR$/Apps/mvc/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/Start.php" afterPath="$PROJECT_DIR$/System/Start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/enzum/config/assets.php" afterPath="$PROJECT_DIR$/Apps/enzum/config/assets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/enzum/config/database.php" afterPath="$PROJECT_DIR$/Apps/enzum/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/enzum/controller/Welcome.php" afterPath="$PROJECT_DIR$/Apps/enzum/controller/Welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/enzum/view/templates/styles.php" afterPath="$PROJECT_DIR$/Apps/enzum/view/templates/styles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php" afterPath="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/Controller.php" afterPath="$PROJECT_DIR$/System/core/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/Database.php" afterPath="$PROJECT_DIR$/System/core/Database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/System/core/prototype/VSError.php" afterPath="$PROJECT_DIR$/System/core/prototype/VSError.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <ignored path="varyans.iws" />
@@ -82,8 +727,8 @@
       <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/enzum/controller/Welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="22" />
+            <state vertical-scroll-proportion="-20.26923">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="e#40#80#0#PHP" expanded="true" />
               </folding>
@@ -91,12 +736,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assets.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/enzum/config/assets.php">
+      <file leaf-file-name="portfolio-standard-1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-standard-1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +751,18 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.23077">
-              <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+            <state vertical-scroll-proportion="-24.192308">
+              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assets.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Apps/enzum/config/assets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39583334">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -124,59 +781,17 @@
       <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System/core/Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-77.26923">
-              <caret line="180" column="40" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="98" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/styles.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact-style-2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3699826">
-              <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="13.730769">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="30" />
+              <folding>
+                <element signature="e#2258#2777#0#PHP" expanded="false" />
+                <element signature="e#2857#3132#0#PHP" expanded="false" />
+                <element signature="e#3216#3412#0#PHP" expanded="false" />
+                <element signature="e#3479#3561#0#PHP" expanded="false" />
+                <element signature="e#3646#4036#0#PHP" expanded="false" />
+                <element signature="e#4146#4592#0#PHP" expanded="false" />
+                <element signature="e#4642#4808#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,12 +812,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/blog-style-3.php" />
-        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/blog-style-3.js" />
-        <option value="$PROJECT_DIR$/public/enzum_assets/js/site/blog-post.js" />
-        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/blog-style-4.php" />
-        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact.php" />
-        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index.php" />
         <option value="$PROJECT_DIR$/public/enzum_assets/js/site/index-async.js" />
         <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-async.php" />
         <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-flex.php" />
@@ -239,15 +848,21 @@
         <option value="$PROJECT_DIR$/Apps/enzum/view/templates/navbar.php" />
         <option value="$PROJECT_DIR$/System/core/Database.php" />
         <option value="$PROJECT_DIR$/System/Start.php" />
+        <option value="$PROJECT_DIR$/System/core/Asset.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/config/database.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/Apps/enzum/view/templates/styles.php" />
         <option value="$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php" />
-        <option value="$PROJECT_DIR$/Apps/enzum/config/assets.php" />
-        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php" />
         <option value="$PROJECT_DIR$/System/core/Controller.php" />
-        <option value="$PROJECT_DIR$/System/core/Asset.php" />
         <option value="$PROJECT_DIR$/Apps/enzum/controller/Welcome.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/site/portfolio-standart-1.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/site/portfolio-standard-1.js" />
         <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php" />
-        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php" />
+        <option value="$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/jquery.easing.1.3.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/site/index.js" />
+        <option value="$PROJECT_DIR$/Apps/enzum/config/assets.php" />
       </list>
     </option>
   </component>
@@ -261,10 +876,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1298" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -291,8 +906,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,7 +922,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemId" value="varyans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,7 +932,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemId" value="varyans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -331,7 +946,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemId" value="varyans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -339,7 +954,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="enzum_assets" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -353,7 +968,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
+              <option name="myItemId" value="varyans" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -361,7 +976,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="enzum_assets" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,141 +994,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="enzum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enzum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enzum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enzum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="varyans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="namecpaseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enzum" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,19 +1020,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum\view" />
-      <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets\images" />
-      <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum\view\welcome\pages" />
-      <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets" />
-      <recent name="C:\xampp\htdocs\varyans\Plugins\model" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets\js\site" />
       <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum" />
       <recent name="C:\xampp\htdocs\varyans\public\assets" />
       <recent name="C:\xampp\htdocs\varyans\Apps\ayceqart\view\layouts" />
       <recent name="C:\xampp\htdocs\varyans\Apps\ayceqart\view\site" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum\view" />
+      <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets\images" />
+      <recent name="C:\xampp\htdocs\namecpaseSystem\Apps\enzum\view\welcome\pages" />
+      <recent name="C:\xampp\htdocs\namecpaseSystem\public\enzum_assets" />
+      <recent name="C:\xampp\htdocs\varyans\Plugins\model" />
     </key>
   </component>
   <component name="RunManager">
@@ -589,17 +1086,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1298" height="1002" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28513733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37229437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32142857" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32068965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -611,6 +1107,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37229437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -633,69 +1130,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8827586">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8172414">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <caret line="142" column="94" selection-start-line="142" selection-start-column="94" selection-end-line="142" selection-end-column="94" />
-          <caret line="154" column="94" selection-start-line="154" selection-start-column="94" selection-end-line="154" selection-end-column="94" />
-          <caret line="166" column="94" selection-start-line="166" selection-start-column="94" selection-end-line="166" selection-end-column="94" />
-          <caret line="180" column="94" selection-start-line="180" selection-start-column="94" selection-end-line="180" selection-end-column="94" />
-          <caret line="192" column="94" selection-start-line="192" selection-start-column="94" selection-end-line="192" selection-end-column="94" />
-          <caret line="204" column="94" selection-start-line="204" selection-start-column="94" selection-end-line="204" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49330357">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49330357">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-async.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8827586">
-          <caret line="426" column="18" selection-start-line="426" selection-start-column="18" selection-end-line="426" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-flex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36049107">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index-flex.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8827586">
           <caret line="394" column="18" selection-start-line="394" selection-start-column="18" selection-end-line="394" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,25 +1141,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.538462">
           <caret line="396" column="18" selection-start-line="396" selection-start-column="18" selection-end-line="396" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-nivo.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/index-nivo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77790177">
           <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-style-5.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/index-style-5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2845982">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,17 +1162,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8827586">
           <caret line="342" column="19" selection-start-line="342" selection-start-column="19" selection-end-line="342" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/index-style-6.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/index-style-6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73995537">
           <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,17 +1176,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8827586">
           <caret line="228" column="14" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-basic-1.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-basic-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6261161">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,17 +1190,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8827586">
           <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-info.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6261161">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,7 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8827586">
           <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,27 +1211,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2627824">
           <caret line="13" column="88" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-info-2.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-info-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6261161">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6261161">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,17 +1225,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8827586">
           <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-2.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-standard-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6261161">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,35 +1240,27 @@
         <state vertical-scroll-proportion="-1.3252873">
           <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-standard-3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6261161">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-3-alternate.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-standard-3-alternate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60714287">
           <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-4.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-standard-4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6261161">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22235434">
           <caret line="11" column="88" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +1276,6 @@
         <state vertical-scroll-proportion="0.89885056">
           <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,17 +1284,13 @@
         <state vertical-scroll-proportion="-1.9896551">
           <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/portfolio-standart-5.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-standard-5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6261161">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,17 +1298,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8827586">
           <caret line="195" column="18" selection-start-line="195" selection-start-column="18" selection-end-line="195" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-left.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/sidebar-left.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.265625">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,17 +1313,13 @@
         <state vertical-scroll-proportion="0.89885056">
           <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/site/sidebar-right.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/sidebar-right.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2845982">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,7 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.3735633">
           <caret line="275" column="18" selection-start-line="275" selection-start-column="18" selection-end-line="275" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,18 +1334,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5454545">
           <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/enzum_assets/js/default.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/default.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2712053">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1451292056006" expanded="true" signature="4676:4693" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,12 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4655173">
           <caret line="116" column="35" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
-          <folding>
-            <marker date="1450675674624" expanded="true" signature="1457:1471" placeholder="SELECT * FRO... ${$this-&gt;getTableName()}" />
-            <marker date="1450675674624" expanded="true" signature="2129:2141" placeholder="INSERT INTO ${$this-&gt;getTableName()}... " />
-            <marker date="1450675674624" expanded="true" signature="4538:4550" placeholder="DELETE FROM " />
-            <marker date="1450675674624" expanded="true" signature="9832:9886" placeholder="CREATE TABLE... IF" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,72 +1371,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="33.346153">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14583333">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.23077">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/controller/Welcome.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#40#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/config/assets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/Asset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System/core/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-77.26923">
-          <caret line="180" column="40" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="98" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/styles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9583333">
+          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1081,10 +1406,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/contact-style-2.php">
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/styles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3699826">
-          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.041666668">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/core/Asset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5625">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/pages/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/controller/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/portfolio-standard-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/templates/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.083333336">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41666666">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.730769">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <element signature="e#2258#2777#0#PHP" expanded="false" />
+            <element signature="e#2857#3132#0#PHP" expanded="false" />
+            <element signature="e#3216#3412#0#PHP" expanded="false" />
+            <element signature="e#3479#3561#0#PHP" expanded="false" />
+            <element signature="e#3646#4036#0#PHP" expanded="false" />
+            <element signature="e#4146#4592#0#PHP" expanded="false" />
+            <element signature="e#4642#4808#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/view/welcome/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.192308">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/jquery.easing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28266034">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/site/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/enzum/config/assets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39583334">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
         </state>
       </provider>

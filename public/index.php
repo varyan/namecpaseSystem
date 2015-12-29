@@ -16,7 +16,7 @@ $system_path    = "../System";
 $plugins_path   = "../Plugins";
 $apps_path      = "../Apps";
 
-$template_path  = "enzum_assets";
+$template_path  = "assets";
 
 /**
  * set active app folder name

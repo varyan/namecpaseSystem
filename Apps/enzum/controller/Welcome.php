@@ -20,7 +20,7 @@ class Welcome extends VarYanController
     public function page($current = 'index')
     {
 
-        $file = ROOT.'enzum_assets/js/site/'.$current.'.js';
+        $file = ROOT.'assets/js/site/'.$current.'.js';
 
         if(file_exists($file)){
             Asset::add('js','site/'.$current);
